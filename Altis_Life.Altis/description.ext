@@ -131,12 +131,6 @@ class CfgSounds
 		sound[] = {"sounds\alert.ogg", 1.0, 1};
 		titles[] = {};
 	};
-	​class sirenalarm
-    {
-        name = "sirenalarm";
-        sound[]= {"\sounds\sirenalarm.ogg",1.0,1}; // Hier den Pfad zu eurer Datei!
-        titles[] = {};
-    };
 	class mari
 	{
 		name= "mari";
