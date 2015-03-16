@@ -6894,7 +6894,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=4628;
+		items=4627;
 		class Item0
 		{
 			position[]={8087.8345,77.665977,22619.818};
@@ -52614,15 +52614,6 @@ class Mission
 			vehicle="Land_Billboard_F";
 			skill=0.60000002;
 			init="this enableSimulation false; this allowDamage false; this addAction[""<t color='#ADFF2F'>BANK</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 '];";
-		};
-		class Item4627
-		{
-			position[]={3180.2422,2.3453615,12927.732};
-			id=4996;
-			side="EMPTY";
-			vehicle="Land_MetalBarrel_F";
-			skill=0.60000002;
-			init="this addAction [ ""Zivilschutzsirene"", { [_this select 0,""sirenalarm""] call life_fnc_globalSound;},"""",0,false,false,"""",'playerSide == west'];";
 		};
 	};
 	class Markers
