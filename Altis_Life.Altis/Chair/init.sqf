@@ -1,0 +1,1 @@
+_igiload = execVM "IgiLoad\IgiLoadInit.sqf";
