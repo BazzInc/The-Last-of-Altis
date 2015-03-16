@@ -42,4 +42,3 @@ MAC_fnc_switchMove = {
     _object switchMove _anim;
     
 };
-_igiload = execVM "IgiLoad\IgiLoadInit.sqf";
