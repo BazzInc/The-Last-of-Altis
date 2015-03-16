@@ -224,8 +224,7 @@ if(count (handGunItems player) > 0) then
 	["life_inv_uranium4",life_inv_uranium4],
 	["life_inv_uranium",life_inv_uranium],
 	["life_inv_kidney",life_inv_kidney],
-	["life_inv_scalpel",life_inv_scalpel],
-	["life_inv_fuelPipe", life_inv_fuelPipe]
+	["life_inv_scalpel",life_inv_scalpel]
 ];
 
 _return pushBack _uItems;

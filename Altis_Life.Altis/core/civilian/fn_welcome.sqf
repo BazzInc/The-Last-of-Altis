@@ -43,9 +43,9 @@ switch (playerSide) do
 	case civilian:
 	{
         _text = [
-			format ["<t align='left'><t color='#ff1111'>Herzlich Willkommen bei The Last of Atlis!</t>"],
+			format ["<t align='left'><t color='#ff1111'>Bitte halte dich auf unserem Server ans RolePlay, betrachte dies als deine erste und letzte Warnung!</t>"],
 			format ["<t align='left'>Solltest du dich nun fragen welcher Rohstoff dir am schnellsten und meisten Geld bringt, drücke <t color='#FF8000'>Z</t> und klicke auf Börse. Die Börse hat immer die aktuellsten Informationen zu den Rohstoffpreisen für dich, da wir in einer dynamischen Wirtschaft leben werden die Preise sich auch immer ändern im Verhältniss zu der Menge an Rohstoffen die gerade verfügbar sind.</t>"],
-			format ["<t align='left'>Neuerungen: Benzin kann abgesaugt werden,Ohrstöpsel Sind verfügbar</t>"],
+			format ["<t align='left'>Desyncs: Die meisten Desyncs sind durch die Clients bedingt, bei einer Framerate unter 30 FPS ist der Armaclient überlastet und hat Probleme die Netzwerkkommunikation zu verwalten.</t>"],
 			format ["<t align='left'><t color='#ff1111'>AltisLife befindet sich gegenwärtig in der BETAPHASE. Verluste und Schäden durch RDM,VRDM etc. werden NICHT erstattet!</t>"],
 			format ["<t align='left'>Die Admins wünschen dir viel Spaß auf diesem Server.</t>"],
 			format ["<t align='left' color='#428BCA'>TS3 : DerDicke.nitrado.net.</t>"],

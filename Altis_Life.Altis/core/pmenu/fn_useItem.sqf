@@ -58,11 +58,6 @@ switch (true) do
 		};
 	};
 	
-	​case (_item == "gpstracker"): 
-    {
-        [cursorTarget] spawn life_fnc_gpsTracker;
-    };
-	
 	case (_item == "blastingcharge"): {
 		player reveal fed_bank;
 		(group player) reveal fed_bank;
@@ -227,6 +222,7 @@ case (_item == "kidney"):
 			[] spawn life_fnc_weed;
 		};
 	};
+	
 	
 	default
 	{

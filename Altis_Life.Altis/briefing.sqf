@@ -25,8 +25,7 @@ player createDiarySubject ["controls","Steuerung"];
 		[
 			"Official Change Log",
 				"
-					Housing Funktioniert nun<br/>
-					Du kannst Benzin von Autos,Booten und Helis absaugen<br/>
+					Housing, du kannst den Strom der Städte abstellen, und vieles Mehr <br/>
 				"
 		]
 	];
@@ -54,7 +53,6 @@ player createDiarySubject ["controls","Steuerung"];
 			"Safe Zones",
 				"
 				In Save Zones wird niemand: Gefesselt, Niedergeschlagen, erschossen oder Ausgeraubt!<br/>
-				Savezonen sind Alle Hauptstädte<br/>
 				"
 		]
 	];
@@ -126,7 +124,7 @@ player createDiarySubject ["controls","Steuerung"];
 		[
 			"New Life Rule", 
 				"
-				Du darfst erst nach 10 min wieder zu deinem Todes ort zurück kehren!<br/>
+				Du darfst erst nach 15 min wieder zu deinem Todes ort zurück kehren!<br/>
 				"
 		]
 	];
@@ -382,19 +380,18 @@ player createDiarySubject ["controls","Steuerung"];
 				F: Polizei Sirene<br/>
 				T: Vehicle Trunk<br/>
 				Ö: Polizei Warnung<br/>
-				Ä: Cop Schranken öffnen (Im Auto)<br/>
+				Ä: Cop Schranken öffnen<br/>
 				O: Cops Nagelbänder legen<br/>
-				^: Spitzhacke (Taste links neben der 1)<br/>
+				Q: Spitzhacke<br/>
 				Left Shift + 1: Telefon<br/>
 				Left Shift + 2: WantedList<br/>
 				Left Shift + 3: Anzeige erstatten<br/>
 				Left Shift + R: Festnehmen<br/>
-				Left Shift + J: Ergeben<br/>
-				Left Shift + G: Knockout<br/>
-				Left Shift + O: Kabelbinder Benutzen<br/>
+				Left Shift + G: Ergeben<br/>
+				Left Shift + V: Knockout<br/>
+				Left Shift + O: Civ Restrain<br/>
 				Left Shift + Space: Springen<br/>
 				Left Shift + H: Waffe Holstern<br/>
-				Left STRG + H: Waffe nehmen<br/>
 				Left Windows: Housing option<br/>
 				Left Windows: Farmen an Feldern<br/>
 				Left Windows: Spieler Interaktionsmenü<br/>

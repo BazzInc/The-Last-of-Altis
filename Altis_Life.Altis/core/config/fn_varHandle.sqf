@@ -182,5 +182,6 @@ switch (_mode) do
             case "life_inv_uranium": {"uranium"}; // Add This 
 			case "life_inv_kidney": {"kidney"};
 			case "life_inv_scalpel": {"scalpel"};
+		};
 	};
 };

@@ -28,7 +28,6 @@ _veh_data = life_trunk_vehicle getVariable ["Trunk",[[],0]];
 _inv = _veh_data select 0;
 
 if(_ctrl == "goldbar" && {!(life_trunk_vehicle isKindOf "LandVehicle" OR life_trunk_vehicle isKindOf "House_F")}) exitWith {hint "You cannot store that in anything but a land vehicle!"};
-if(_ctrl == "uranium1" && {!(life_trunk_vehicle isKindOf "LandVehicle" OR life_trunk_vehicle isKindOf "House_F")}) exitWith {hint "Du kannst keinen Radioaktivien Uranabfall mit dem Heli transportieren!"};
 
 _Truck = TypeOf life_trunk_vehicle;
 _FuelStuff = ["oilu","oilp"]; //Wich Items can be stored in?

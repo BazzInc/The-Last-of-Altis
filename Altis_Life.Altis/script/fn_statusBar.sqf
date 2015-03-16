@@ -18,12 +18,12 @@ _rscLayer cutRsc["osefStatusBar","PLAIN"];
 
 [] spawn {
 	sleep 5;
-	_counter = 360;
+	_counter = 180;
 	_timeSinceLastUpdate = 0;
 	while {true} do
 	{
 		sleep 1;
 		_counter = _counter - 1;
-		((uiNamespace getVariable "osefStatusBar")displayCtrl 1000)ctrlSetText format["FPS: %1 | POLIZEI: %2 | ZIVIS: %3 | ÄRZTE: %4 | ADAC: %5| GELD: %6 | BANK: %7 | SPIELER: %8", round diag_fps, west countSide playableUnits, civilian countSide playableUnits, independent countSide playableUnits, east countSide playableUnits,[life_cash] call life_fnc_numberText,[life_atmcash] call life_fnc_numberText, count playableUnits,_counter];
+		((uiNamespace getVariable "osefStatusBar")displayCtrl 1000)ctrlSetText format["FPS: %1 | POLIZEI: %2 | ZIVIS: %3 | ÄRZTE: %4 | Adac: %5| GELD: %6 | BANK: %7 | SPIELER: %8", round diag_fps, west countSide playableUnits, civilian countSide playableUnits, independent countSide playableUnits, east countSide playableUnits,[life_cash] call life_fnc_numberText,[life_atmcash] call life_fnc_numberText, count playableUnits,_counter];
 	}; 
 };

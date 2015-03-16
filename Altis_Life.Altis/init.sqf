@@ -20,7 +20,6 @@ life_versionInfo = "Altis Life RPG";
 [] execVM "script\fn_statusBar.sqf"; //Load the Statusbar
 //[] execVM "script\hero\loop.sqf";
 [] execVM "script\Wetterdienst.sqf";
-//[] execVM "script\simpleEP.sqf";
 enableEnvironment true;
 setTerrainGrid 45;
 StartProgress = true;
