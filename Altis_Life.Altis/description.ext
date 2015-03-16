@@ -1,5 +1,5 @@
 #include "infiSTAR_AdminMenu.hpp"
-author = "Tonic | Edit by freakstone";
+author = "Tonic | Edit by CrazySnk | Hightower | BazzInc";
 onLoadName = "The Last of Altis";
 onLoadMission = "• A RPG by Tonic •";
 joinUnassigned = 1;
