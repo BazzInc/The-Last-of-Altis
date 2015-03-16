@@ -110,6 +110,12 @@ switch (_mode) do
 			case "license_civ_stiller": {_var = "beer"};
 			case "license_adac_car": {_var = "car"};
             case "license_adac_air": {_var = "air"};
+			case "license_civ_uranium": {_var = "uranium"};
+			case "license_civ_uranium": {_var = "uranium1"};
+			case "license_civ_uranium": {_var = "uranium2"};
+			case "license_civ_uranium": {_var = "uranium2b"};
+			case "license_civ_uranium": {_var = "uranium3"};
+			case "license_civ_uranium": {_var = "uranium4"};
 			default {_var = ""};
 		};
 	};

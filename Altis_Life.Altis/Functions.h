@@ -159,6 +159,9 @@ class Life_Client_Core
 		class sitDown {};
 		class robShops {};
 		class craftAction {};
+		class gatherUranium {};
+		class processActionDual {};
+		class processActionLsd {};
 	};
 	
 	class Special
