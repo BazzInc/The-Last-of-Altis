@@ -92,7 +92,6 @@ switch (_var) do
     case "life_inv_uranium": {"Uran"}; // Add This
 	case "life_inv_kidney": {"Niere"}; 
 	case "life_inv_scalpel": {"Scalpel"};
-	​case "life_inv_gpstracker": {"GPS Tracker"};
 	
 	//License Block
 	case "license_civ_driver": {"Führerschein"};

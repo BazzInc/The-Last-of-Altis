@@ -466,7 +466,6 @@ class Life_Client_Core
 		class useKokain {};
 		class useMarihuana {};
 		class weedSmoke {};
-		​class gpsTracker {};
 	};
 	
 	class Dialog_Controls

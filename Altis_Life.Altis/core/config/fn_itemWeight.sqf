@@ -87,6 +87,5 @@ switch (_item) do
 	case "kidney": {20};
 	case "scalpel": {5};
 	case "peach": {2};
-	case "gpstracker": {2};
 	default {1};
 };

@@ -96,7 +96,6 @@ switch (_mode) do
             case "uranium": {"life_inv_uranium"}; // Add This
 			case "kidney": {"life_inv_kidney"};
 			case "scalpel": {"life_inv_scalpel"};
-			​case "gpstracker": {"life_inv_gpstracker"};
 		};
 	};
 	
@@ -183,6 +182,5 @@ switch (_mode) do
             case "life_inv_uranium": {"uranium"}; // Add This 
 			case "life_inv_kidney": {"kidney"};
 			case "life_inv_scalpel": {"scalpel"};
-			​case "life_inv_gpstracker": {"gpstracker"};
 	};
 };

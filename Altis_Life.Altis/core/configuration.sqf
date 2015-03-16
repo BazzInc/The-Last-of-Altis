@@ -219,8 +219,7 @@ life_inv_items =
 	"life_inv_uranium4",
 	"life_inv_uranium",
 	"life_inv_kidney",
-	"life_inv_scalpel",
-	"life_inv_gpstracker"​
+	"life_inv_scalpel"
 ];
 
 //Setup variable inv vars.
@@ -337,8 +336,7 @@ sell_array =
 	["bottles",50],
 	["uranium",100000],
 	["kidney",75000],
-	["scalpel",1000],
-	["gpstracker",1000]
+	["scalpel",1000]
 ];
 __CONST__(sell_array,sell_array);
 
@@ -389,8 +387,7 @@ buy_array =
 	["puranium",1000],
 	["ipuranium",9000],
 	["kidney",50000],
-	["scalpel",7500],
-	​["gpstracker",2000]
+	["scalpel",7500]
 ];
 __CONST__(buy_array,buy_array);
 
