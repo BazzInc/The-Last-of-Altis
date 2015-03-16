@@ -153,6 +153,7 @@ class Life_Client_Core
 		class surrender {};
 		class removeWeaponAction{};
 		class packupmauer {};
+		class gatherUranium {};
 		class processActionDual {};
 		class processActionLsd {};
 		class takeOrgans {};

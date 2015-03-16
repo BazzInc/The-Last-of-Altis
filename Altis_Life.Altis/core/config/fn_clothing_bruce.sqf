@@ -35,7 +35,8 @@ switch (_filter) do
 		["U_NikosBody","Niko's Clothes",1100],
 		["U_Marshal","Marshal Clothes",1100],
 		["U_C_Journalist","Journalist Clothes",2500],
-		["U_C_Poor_2","Hello Kitty",3500]
+		["U_C_Poor_2","Hello Kitty",3500],
+		["U_C_Scientist","Strahlenanzug",100000]
 		];
 	};
 	
