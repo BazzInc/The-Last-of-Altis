@@ -40,7 +40,8 @@ switch (_vehicle) do
 			["#(ai,64,64,1)Fresnel(1.3,7)","cop"],
 			[_path2 + "police_hatchback.paa","cop"],
 			[_path2 + "civ_hatchback_metallica.jpg","civ"],
-			[_path2 + "hatchback_sport_ken_block.jpg","civ"]
+			[_path2 + "hatchback_sport_ken_block.jpg","civ"],
+			[_path2 + "dragon_hatchback_sport.jpg","civ"]
 		];
 	};
 		
@@ -65,7 +66,8 @@ switch (_vehicle) do
 			[_path + "civ_offroad_camo.jpg","civ"],
 			[_path + "civ_offroad_dodge.jpg","civ"],
 			[_path + "civ_offroad_weed.jpg","civ"], 
-			[_path + "monsterenergy_off.jpg","civ"]
+			[_path + "monsterenergy_off.jpg","civ"],
+			[_path + "adac_offroad.jpg","adac"]
 		];
 	};
 	
@@ -74,7 +76,7 @@ switch (_vehicle) do
 		_path = "skins\car\";
 		_ret =
 		[
-			[_path + "adac_offroad.jpg","med"]
+			[_path + "adac_offroad.jpg","adac"]
 		];
 	};
 	
@@ -100,7 +102,6 @@ switch (_vehicle) do
 		_path = "skins\car\";
 		_ret =
 		[
-			[_path + "suv_sealdrop.jpg","civ"],
 			[_path + "police_suv.paa","cop"],
 			["\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_03_co.paa","civ"],
 			["\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_04_co.paa","civ"],
@@ -110,11 +111,11 @@ switch (_vehicle) do
 			[_path + "camo_suv.jpg","civ"],
 			[_path + "civ_suv_monster.jpg","civ"],
 			[_path + "carbon_suv.jpg","cop"],
-			[_path + "carbon_suv1.jpg","cop"],
 			[_path + "batman_suv.jpg","civ"],
 			[_path + "civ_suv_ferrari.jpg","civ"],
 			[_path + "civ_suv_skull.jpg","civ"],
-			[_path + "kitty.jpg","civ"]
+			[_path + "kitty.jpg","civ"],
+			[_path + "suv_adac1.paa","adac"]
 		];
 	};
 	
@@ -188,8 +189,9 @@ switch (_vehicle) do
 			["\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_civilian_co.paa","civ"],
 			["\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_indp_co.paa","civ"],
 			["\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_opfor_co.paa","civ"],
-			[_path + "adac_orca.jpg","med"],
-			[_path + "medic_orca.jpg","med"]
+			[_path + "adac_orca.jpg","adac"],
+			[_path + "medic_orca.jpg","med"],
+			[_path + "orca_polizei.paa","cop"]
 		];
 	};
 	
@@ -231,7 +233,7 @@ switch (_vehicle) do
 		_ret =
 		[
 			[_path + "hellcat.jpg","cop"],
-			[_path + "hellcat_adac.jpg","med"],
+			[_path + "hellcat_adac.jpg","adac"],
 			[_path + "sek_hellcat.jpg","cop"]
 		];
 	};
@@ -279,7 +281,8 @@ switch (_vehicle) do
 		_ret =
 		[
 			[_path + "civ_hemtt_devil_0.jpg","civ",_path + "civ_hemtt_devil_1.jpg"],
-			[_path + "civ_hemtt_kitty_0.jpg","civ",_path + "civ_hemtt_kitty_1.jpg"]
+			[_path + "civ_hemtt_kitty_0.jpg","civ",_path + "civ_hemtt_kitty_1.jpg"],
+			[_path + "adac_hemtt.jpg","adac"]
 		];
 	};
 	case "B_Truck_01_covered_F":
@@ -298,6 +301,36 @@ switch (_vehicle) do
 		[
 			[_path + "civ_hemtt_devil_0.jpg","civ",_path + "civ_hemtt_devil_1.jpg"],
 			[_path + "civ_hemtt_kitty_0.jpg","civ",_path + "civ_hemtt_kitty_1.jpg"]
+		];
+	};
+	
+	case "B_SDV_01_F":
+	{
+		_path = "skins\bote\";
+		_ret =
+		[
+			[_path + "polizei_uboot.paa","cop"]
+
+		];
+	};
+	
+	case "B_Truck_01_mover_F":
+	{
+		_path = "skins\car\";
+		_ret =
+		[
+			[_path + "hemtt_mover_adac.paa","ADAC"]
+
+		];
+	};
+	
+	case "B_Boat_Armed_01_minigun_F":
+	{
+		_path = "skins\bote\\";
+		_ret =
+		[
+			[_path + "polizei_speedboot.paa","cop"]
+
 		];
 	};
 };

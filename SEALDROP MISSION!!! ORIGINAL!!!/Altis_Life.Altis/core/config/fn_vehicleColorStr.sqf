@@ -23,7 +23,7 @@ switch (_vehicle) do
 			case 4: {_color = "Dark Red";};
 			case 5: {_color = "Blue / White"};
 			case 6: {_color = "Black"};
-			case 7: {_color = "Black"};
+			case 7: {_color = "Polizei"};
 			case 8: {_color = "Taxi"};
 			case 9: {_color = "Medic"};
 			case 10: {_color = "Rockstar Gelb"};
@@ -66,6 +66,7 @@ switch (_vehicle) do
 			case 7: {_color = "Polizei"};
 			case 8: {_color = "Metallica"};
 			case 9: {_color = "Monster"};
+			case 10: {_color = "Dragon"};
 			
 		};
 	};
@@ -74,21 +75,20 @@ switch (_vehicle) do
 	{
 		switch (_index) do
 		{
-			case 0: {_color = "SealDrop";};
-			case 1: {_color = "Polizei";};
-			case 2: {_color = "Silver";};
-			case 3: {_color = "Orange";};
-			case 4: {_color = "SEK/GSG9";};
-			case 5: {_color = "Medic";};
-			case 6: {_color = "Polygon";};
-			case 7: {_color = "Camo";};
-			case 8: {_color = "MonsterEnergy";};
-			case 9: {_color = "Civil";};
-			case 10: {_color = "Civil 2";};
-			case 11: {_color = "Batman";};
-			case 12: {_color = "Ferrari";};
-			case 13: {_color = "Totenkopf";};
-			case 14: {_color = "Hello Kitty";};
+			case 0: {_color = "Polizei";};
+			case 1: {_color = "Silver";};
+			case 2: {_color = "Orange";};
+			case 3: {_color = "SEK/GSG9";};
+			case 4: {_color = "Medic";};
+			case 5: {_color = "Polygon";};
+			case 6: {_color = "Camo";};
+			case 7: {_color = "MonsterEnergy";};
+			case 8: {_color = "Civil";};
+			case 9: {_color = "Batman";};
+			case 10: {_color = "Ferrari";};
+			case 11: {_color = "Totenkopf";};
+			case 12: {_color = "Hello Kitty";};
+			case 13: {_color = "ADAC";};
 		};
 	};
 	
@@ -170,6 +170,7 @@ switch (_vehicle) do
 			case 3: {_color = "Desert Digi"};
 			case 4: {_color = "ADAC"};
 			case 5: {_color = "Medic"};
+			case 6: {_color = "Polizei"};
 		};
 	};
 	
@@ -271,6 +272,7 @@ switch (_vehicle) do
 		{
 			case 0: {_color = "Devil"};
 			case 1: {_color = "Hello Kitty"};
+			case 2: {_color = "ADAC"};
 		};
 	};
 	case "B_Truck_01_covered_F":
@@ -287,6 +289,30 @@ switch (_vehicle) do
 		{
 			case 0: {_color = "Devil"};
 			case 1: {_color = "Hello Kitty"};
+		};
+	};
+	
+	case "B_SDV_01_F":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Polizei"};
+		};
+	};
+	
+	case "B_Truck_01_mover_F":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "ADAC"};
+		};
+	};
+	
+	case "B_Boat_Armed_01_minigun_F":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Polizei"};
 		};
 	};
 };
