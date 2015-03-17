@@ -114,7 +114,7 @@ _Btn10 ctrlSetText localize "STR_pInAct_RevokeLicense";
 _Btn10 buttonSetAction "[life_pInact_curTarget] call life_fnc_revokeLicense;";
 
 //Check that you are near a place to jail them.
-if(!((player distance (getMarkerPos "cop_spawn_1") < 50) OR  (player distance (getMarkerPos "cop_spawn_2") < 50) OR (player distance (getMarkerPos "cop_spawn_3") < 50) OR (player distance (getMarkerPos "cop_spawn_bane") < 50))) then 
+if(!((player distance (getMarkerPos "police_hq_1") < 80) OR  (player distance (getMarkerPos "cop_spawn_2") < 50) OR (player distance (getMarkerPos "cop_spawn_3") < 50) OR (player distance (getMarkerPos "cop_spawn_bane") < 50))) then 
 {
 	_Btn6 ctrlEnable false;
 };
