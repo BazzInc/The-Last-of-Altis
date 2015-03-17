@@ -11,7 +11,7 @@ _handle = [] spawn life_fnc_stripDownPlayer;
 waitUntil {scriptDone _handle};
 
 player addUniform "U_C_Poloshirt_stripped";
-player setObjectTextureGlobal [0,"skins\tshirt.jpg"];
+//player setObjectTextureGlobal [0,"skins\texture.jpg"];
 
 /* ITEMS */
 player addItem "ItemMap";
