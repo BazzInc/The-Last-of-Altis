@@ -27,8 +27,8 @@ switch (playerSide) do
 			format ["<t align='left'>Desyncs: Die meisten Desyncs sind durch die Clients bedingt, bei einer Framerate unter 30 FPS ist der Armaclient überlastet und hat Probleme die Netzwerkkommunikation zu verwalten.</t>"],
 			format ["<t align='left'><t color='#ff1111'>AltisLife befindet sich gegenwärtig in der BETAPHASE. Verluste und Schäden durch RDM,VRDM etc. werden NICHT erstattet!</t>"],
 			format ["<t align='left'>Die Admins wünschen dir viel Spaß auf diesem Server.</t>"],
-			format ["<t align='left' color='#428BCA'>TS3 : TS_IP</t>"],
-			format ["<t align='left' color='#428BCA'>Forum : HOMEPAGE_LINK</t>"]
+			format ["<t align='left' color='#428BCA'>TS3 : 194.169.211.25:13350</t>"],
+			format ["<t align='left' color='#428BCA'>Forum : www.the-last-of-altis.de</t>"]
 		];
 	};
 	case independent:
@@ -40,21 +40,21 @@ switch (playerSide) do
 			format ["<t align='left'>Desyncs: Die meisten Desyncs sind durch die Clients bedingt, bei einer Framerate unter 30 FPS ist der Armaclient überlastet und hat Probleme die Netzwerkkommunikation zu verwalten.</t>"],
 			format ["<t align='left'><t color='#ff1111'>AltisLife befindet sich gegenwärtig in der BETAPHASE. Verluste und Schäden durch RDM,VRDM etc. werden NICHT erstattet!</t>"],
 			format ["<t align='left'>Die Admins wünschen dir viel Spaß auf diesem Server.</t>"],
-			format ["<t align='left' color='#428BCA'>TS3 : TS_IP</t>"],
-			format ["<t align='left' color='#428BCA'>Forum : HOMEPAGE_LINK</t>"]
+			format ["<t align='left' color='#428BCA'>TS3 : 194.169.211.25:13350</t>"],
+			format ["<t align='left' color='#428BCA'>Forum : www.the-last-of-altis.de</t>"]
 		];
 	};
 	case civilian:
 	{
         _text = [
 			format ["<t align='left'><t color='#ff1111'>Bitte halte dich auf unserem Server ans RolePlay, betrachte dies als deine erste und letzte Warnung!</t>"],
-			format ["<t align='left'>Wenn das dein erster Besuch auf unserem Server ist, bitten wir dich, die Regeln genauestens durchzulesen. Dies kannst Du in unserem Forum: SealDrop.de tun.</t>"],
+			format ["<t align='left'>Wenn das dein erster Besuch auf unserem Server ist, bitten wir dich, die Regeln genauestens durchzulesen. Dies kannst Du in unserem Forum: www.the-last-of-altis.de tun.</t>"],
 			format ["<t align='left'>Solltest du dich nun fragen welcher Rohstoff dir am schnellsten und meisten Geld bringt, drücke <t color='#FF8000'>Z</t> und klicke auf Börse. Die Börse hat immer die aktuellsten Informationen zu den Rohstoffpreisen für dich, da wir in einer dynamischen Wirtschaft leben werden die Preise sich auch immer ändern im Verhältniss zu der Menge an Rohstoffen die gerade verfügbar sind.</t>"],
 			format ["<t align='left'>Desyncs: Die meisten Desyncs sind durch die Clients bedingt, bei einer Framerate unter 30 FPS ist der Armaclient überlastet und hat Probleme die Netzwerkkommunikation zu verwalten.</t>"],
 			format ["<t align='left'><t color='#ff1111'>AltisLife befindet sich gegenwärtig in der BETAPHASE. Verluste und Schäden durch RDM,VRDM etc. werden NICHT erstattet!</t>"],
 			format ["<t align='left'>Die Admins wünschen dir viel Spaß auf diesem Server.</t>"],
-			format ["<t align='left' color='#428BCA'>TS3 : TS_IP</t>"],
-			format ["<t align='left' color='#428BCA'>Forum : HOMEPAGE_LINK</t>"]
+			format ["<t align='left' color='#428BCA'>TS3 : 194.169.211.25:13350</t>"],
+			format ["<t align='left' color='#428BCA'>Forum : www.the-last-of-altis.de</t>"]
 		];
 	};
 };

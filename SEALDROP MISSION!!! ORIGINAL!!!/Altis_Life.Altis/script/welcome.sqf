@@ -1,6 +1,6 @@
 /*
 	File: welcome.sqf
-	Author: TheTotenkopf
+	Author: The-last-of-altis
 	Date: 26.6.2014
 */
 
@@ -14,17 +14,17 @@ playSound "welcome";
 _onScreenTime = 2;
 
 _role1 = "Willkommen bei";
-_role1names = ["S E A L D R O P"];
+_role1names = ["The Last of Altis"];
 _role2 = "Server Inhaber";
-_role2names = ["ADMIN_NAMEN"];
+_role2names = ["DerDickee"];
 _role3 = "Map Edit by";
-_role3names = ["TheTotenkopf"];
+_role3names = ["CrazysnK,Hightower,BazzInc"];
 _role4 = "Offizieller TeamSpeak";
-_role4names = ["TS_NAME"];
+_role4names = ["derdickee.nitrado.net"];
 _role8 = "Offizielles Forum";
-_role8names = ["FORUM_NAME"];
+_role8names = ["www.the-last-of-altis.de"];
  _role9 = "Server Restarts";
-_role9names = ["0,6,9,12,15,18,21"];
+_role9names = ["0,8,12,16,20"];
 
 {
 sleep 2;
