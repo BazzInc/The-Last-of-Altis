@@ -130,3 +130,6 @@ _rsb allowDamage false;
 _dome allowDamage false;
 life_server_isReady = true;
 publicVariable "life_server_isReady";
+pb_spieler = [];
+pb_spielstatus = 0;
+pb_maxspieler = 10;

@@ -290,6 +290,7 @@ class Life_Client_Core
 		class emptyFuel {};
 		class fatigueReset {};
 		class introCam {};
+		class ryn_message {};
 	};
 	
 	class Network
@@ -464,5 +465,10 @@ class Life_Client_Core
 		class safeFix {};
 		class vehicleGarage {};
 		class gangDeposit {};
+	};
+	class Paintball
+	{
+		file = "core\paintball";
+		class pb_response {};
 	};
 };

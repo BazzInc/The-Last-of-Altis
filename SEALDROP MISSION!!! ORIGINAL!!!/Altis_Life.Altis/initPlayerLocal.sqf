@@ -17,3 +17,5 @@ __CONST__(BIS_fnc_endMission,BIS_fnc_endMission);
 if((_this select 1)) then {
 	[] execVM "core\jip.sqf";
 };
+pb_positionen = [[23633,19018.8,0.00143886],[23635.1-19020.7.0.00143886],[23629.3,19015.5,0.00143886],[23626.1,19015.1,0.00143886],[23622.9,19009,0.00143886]];
+joinmode = 0;
