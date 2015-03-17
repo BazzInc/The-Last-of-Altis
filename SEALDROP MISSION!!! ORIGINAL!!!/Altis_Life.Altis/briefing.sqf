@@ -25,16 +25,16 @@ player createDiarySubject ["controls","Steuerung"];
 		[
 			"Official Change Log",
 				"
-					Alle Änderungen stehen im Forum: HOMEPAGE_URL
+					Housing, du kannst den Strom der Städte abstellen, und vieles Mehr <br/>
 				"
 		]
 	];
 	
 	player createDiaryRecord["changelog",
 		[
-			"SealDrop Changelog",
+			"Altis Changelog",
 				"
-					Das Changelog kannst du unter HOMEPAGE_URL einsehen.
+					Altis Life 3.1.4.8<br/>
 				"
 		]
 	];
@@ -43,7 +43,7 @@ player createDiarySubject ["controls","Steuerung"];
 		[
 			"Exploits", 
 				"
-				Alle Regeln findest du in unserem Forum ! www.HOMEPAGE_URL!<br/>
+				Alle Regeln findest du in unserem Forum ! www.Folgt Noch.de!<br/>
 				"
 		]
 	];
@@ -52,7 +52,7 @@ player createDiarySubject ["controls","Steuerung"];
 		[
 			"Safe Zones",
 				"
-				Alle Regeln findest du in unserem Forum ! www.HOMEPAGE_URL!<br/>
+				In Save Zones wird niemand: Gefesselt, Niedergeschlagen, erschossen oder Ausgeraubt!<br/>
 				"
 		]
 	];
@@ -62,7 +62,7 @@ player createDiarySubject ["controls","Steuerung"];
 		[
 			"Bannable Offenses", 
 				"
-				Alle Regeln findest du in unserem Forum ! www.HOMEPAGE_URL!<br/>
+				Alle Regeln findest du in unserem Forum ! www.Folgt Noch.de!<br/>
 				"
 		]
 	];
@@ -71,7 +71,7 @@ player createDiarySubject ["controls","Steuerung"];
 		[
 			"Cop Interaction", 
 				"
-				Alle Regeln findest du in unserem Forum ! www.HOMEPAGE_URL!<br/>
+				Beleidigt keine Cops, dies fürt zum BAN!<br/>
 				"
 		]
 	];
@@ -80,7 +80,7 @@ player createDiarySubject ["controls","Steuerung"];
 		[
 			"Boats", 
 				"
-				Alle Regeln findest du in unserem Forum ! www.HOMEPAGE_URL!<br/>
+				Jegliche art von schnell booten sind verboten!<br/>
 				"
 		]
 	];
@@ -89,7 +89,7 @@ player createDiarySubject ["controls","Steuerung"];
 		[
 			"Aviation", 
 				"
-				Alle Regeln findest du in unserem Forum ! www.HOMEPAGE_URL!<br/>
+				Landen in Kavala nur mit erlaubnis der Polizei am Landeplatz<br/>
 				"
 		]
 	];
@@ -98,7 +98,7 @@ player createDiarySubject ["controls","Steuerung"];
 		[
 			"Vehicles", 
 				"
-				Alle Regeln findest du in unserem Forum ! www.HOMEPAGE_URL!<br/>
+				Stell dein Fahrzeug ordentlich ab!<br/>
 				"
 		]
 	];
@@ -107,7 +107,7 @@ player createDiarySubject ["controls","Steuerung"];
 		[
 			"Communication Rules", 
 				"
-				Alle Regeln findest du in unserem Forum ! www.HOMEPAGE_URL!<br/>
+				Im Side Chat wird nicht gesprochen!<br/>
 				"
 		]
 	];
@@ -116,7 +116,7 @@ player createDiarySubject ["controls","Steuerung"];
 		[
 			"Random Deathmatching (RDM)", 
 				"
-				Alle Regeln findest du in unserem Forum ! www.HOMEPAGE_URL!<br/>
+				Bei RDM gibt es nur 1 verwahnung dann BAN!<br/>
 				"
 		]
 	];
@@ -124,7 +124,7 @@ player createDiarySubject ["controls","Steuerung"];
 		[
 			"New Life Rule", 
 				"
-				Alle Regeln findest du in unserem Forum ! www.HOMEPAGE_URL!<br/>
+				Du darfst erst nach 15 min wieder zu deinem Todes ort zurück kehren!<br/>
 				"
 		]
 	];
@@ -133,7 +133,7 @@ player createDiarySubject ["controls","Steuerung"];
 		[
 			"Don't Be A Dick!", 
 				"
-				Alle Regeln findest du in unserem Forum ! www.HOMEPAGE_URL!<br/>
+				Nervt keine anderen spieler!<br/>
 				"
 		]
 	];
@@ -143,7 +143,7 @@ player createDiarySubject ["controls","Steuerung"];
 		[
 			"Crisis Negotiation",
 				"
-				Alle Regeln findest du in unserem Forum ! www.HOMEPAGE_URL!<br/>
+				Alle Regeln findest du in unserem Forum ! www.Folgt Noch.de!<br/>
 				"
 		]
 	];
@@ -151,7 +151,7 @@ player createDiarySubject ["controls","Steuerung"];
 		[
 			"The Federal Reserve",
 				"
-				Alle Regeln findest du in unserem Forum ! www.HOMEPAGE_URL!<br/>
+				Wenn ein Banküberfall stad findet, verlassen alle Polizisten auf der stelle ihre posten und fahren zur Bank!<br/>
 				"
 		]
 	];
@@ -159,7 +159,7 @@ player createDiarySubject ["controls","Steuerung"];
 		[
 			"Aviation",
 				"
-				Alle Regeln findest du in unserem Forum ! www.HOMEPAGE_URL!<br/>licopters cannot hover over the city. Cops may only hover over the city if there is an active police operation going on.<br/><br/>
+				Alle Regeln findest du in unserem Forum ! www.Folgt Noch.de!<br/>licopters cannot hover over the city. Cops may only hover over the city if there is an active police operation going on.<br/><br/>
 				"
 		]
 	];
@@ -168,7 +168,7 @@ player createDiarySubject ["controls","Steuerung"];
 		[
 			"Illegal Areas", 
 				"
-				Alle Regeln findest du in unserem Forum ! www.HOMEPAGE_URL!<br/>
+				Immer mindestens 3 Beamte!<br/>
 				"
 		]
 	];
@@ -177,7 +177,7 @@ player createDiarySubject ["controls","Steuerung"];
 		[
 			"Patrolling", 
 				"
-				Alle Regeln findest du in unserem Forum ! www.HOMEPAGE_URL!<br/>
+				Patrollen in Kavala können eben so von Rekruten durch geführt werden mit absprache eines höher rägingen!<br/>
 				"
 		]
 	];
@@ -186,7 +186,7 @@ player createDiarySubject ["controls","Steuerung"];
 		[
 			"Checkpoints", 
 				"
-				Alle Regeln findest du in unserem Forum ! www.HOMEPAGE_URL!<br/>
+				Es müssen immer mindestens 2 Beamte an einem Checkpoint stehen!<br/>
 				"
 		]
 	];
@@ -195,7 +195,7 @@ player createDiarySubject ["controls","Steuerung"];
 		[
 			"Fahrzeuge", 
 				"
-				Alle Regeln findest du in unserem Forum ! www.HOMEPAGE_URL!<br/>
+				Jeder Rang hat seine eigenen Fahrzeuge, denn noch sollte der einsatz von gepanzerten Fahrzeugen unterlassen werden!<br/>
 				"
 		]
 	];
@@ -214,7 +214,7 @@ player createDiarySubject ["controls","Steuerung"];
 		[
 			"Zuordnung", 
 				"
-				Alle Regeln findest du in unserem Forum ! www.HOMEPAGE_URL! !<br/>
+				Alle Regeln findest du in unserem Forum ! www.Folgt Noch.de! !<br/>
 				"
 		]
 	];
@@ -223,7 +223,7 @@ player createDiarySubject ["controls","Steuerung"];
 		[
 			"Gefägnis und Tickets",
 				"
-				Alle Regeln findest du in unserem Forum ! www.HOMEPAGE_URL!<br/>
+				Setzt angemessene straf zeiten!<br/>
 				"
 		]
 	];
@@ -244,7 +244,7 @@ player createDiarySubject ["controls","Steuerung"];
 		[
 			"Einsatz von Waffen",
 				"
-				Alle Regeln findest du in unserem Forum ! www.HOMEPAGE_URL! !<br/>
+				Nur in Gefahren Situazionen darf scharf gefeuert werden !<br/>
 				"
 		]
 	];
@@ -253,7 +253,7 @@ player createDiarySubject ["controls","Steuerung"];
 		[
 			"Razzien",
 				"
-				Alle Regeln findest du in unserem Forum ! www.HOMEPAGE_URL! !<br/>
+				Razzien dürfen nur mit mindestens 4 Cops durchgefürhrt werden, die verantwortung besitzt der Rang höchste!<br/>
 				"
 		]
 	];
@@ -278,7 +278,7 @@ player createDiarySubject ["controls","Steuerung"];
 		[
 			"Sonstiges",
 				"
-				Alle Regeln findest du in unserem Forum ! www.HOMEPAGE_URL! !<br/>
+				Alle Regeln findest du in unserem Forum ! Folgt Noch! !<br/>
 				"
 		]
 	];
@@ -288,7 +288,6 @@ player createDiarySubject ["controls","Steuerung"];
 			"Teamspeak Regeln",
 				"
 				1. Alle Polizisten müssen sich auf dem TeamSpeak befinden wärend sie als Polizist eingeloggt sind.<br/>
-				2. Alles weitere unter HOMEPAGE_URL zu finden<br/><br/>
 				"
 		]
 	];
@@ -300,7 +299,7 @@ player createDiarySubject ["controls","Steuerung"];
 		[
 			"Rebellen Regeln",
 				"
-				Alle Regeln findest du in unserem Forum ! www.HOMEPAGE_URL! !<br/>
+				Für dich einfach nicht Scheiße auf troling is auch als Rebell nicht erlaubt!<br/>
 				"
 		]
 	];
@@ -308,7 +307,7 @@ player createDiarySubject ["controls","Steuerung"];
 		[
 			"Gang Regeln",
 				"
-				Alle Regeln findest du in unserem Forum ! www.HOMEPAGE_URL! !<br/>
+				Eine Gang gehört zusammen im gefächt darf jeder der zur angreifenden gang gehört erschossen werden!<br/>
 				"
 		]
 	];
@@ -373,7 +372,7 @@ player createDiarySubject ["controls","Steuerung"];
 
 	player createDiaryRecord ["controls",
 		[
-			"SealDrop Steuerung",
+			"Altis Steuerung",
 				"
 				Z: Spieler Menü<br/>
 				U: Fahrzeuge auf/zuschließen<br/>
@@ -383,7 +382,7 @@ player createDiarySubject ["controls","Steuerung"];
 				Ö: Polizei Warnung<br/>
 				Ä: Cop Schranken öffnen<br/>
 				O: Cops Nagelbänder legen<br/>
-				^: Spitzhacke<br/>
+				Q: Spitzhacke<br/>
 				Left Shift + 1: Telefon<br/>
 				Left Shift + 2: WantedList<br/>
 				Left Shift + 3: Anzeige erstatten<br/>
