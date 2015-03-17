@@ -62,7 +62,7 @@ __CONST__(life_revive_fee,1000); //Fee for players to pay when revived.
 __CONST__(life_houseLimit,3); //Maximum amount of houses a player can buy (TODO: Make Tiered licenses).
 
 //Gang related stuff?
-__CONST__(life_gangPrice,40000); //Price for creating a gang (They're all persistent so keep it high to avoid 345345345 gangs).
+__CONST__(life_gangPrice,80000); //Price for creating a gang (They're all persistent so keep it high to avoid 345345345 gangs).
 __CONST__(life_gangUpgradeBase,10000); //MASDASDASD
 __CONST__(life_gangUpgradeMultipler,2.5); //BLAH
 
@@ -94,7 +94,7 @@ life_delivery_in_progress = false;
 life_action_in_use = false;
 life_thirst = 100;
 life_hunger = 100;
-life_battery = 50;
+life_battery = 100;
 __CONST__(life_paycheck_period,10); //Five minutes
 life_cash = 0;
 __CONST__(life_impound_car,2500);
@@ -119,26 +119,26 @@ switch (playerSide) do
 	case civilian: 
 	{
 		life_atmcash = 100000; //Starting Bank Money
-		life_paycheck = 150; //Paycheck Amount
+		life_paycheck = 500; //Paycheck Amount
 	};
 	
 	case independent: {
 		life_atmcash = 100000;
-		life_paycheck = 250;
+		life_paycheck = 5000;
 	};
 	
 	case east:
 	{
 		life_atmcash = 100000; //Starting Bank Money
-		life_paycheck = 2500; //Paycheck Amount
+		life_paycheck = 5000; //Paycheck Amount
 	};
 };
 
 /*
 	Master Array of items?
 */
-life_vShop_rentalOnly = ["I_MRAP_03_hmg_F"];
-__CONST__(life_vShop_rentalOnly,life_vShop_rentalOnly); //These vehicles can never be bought and only 'rented'. Used as a balancer & money sink. If you want your server to be chaotic then fine.. Remove it..
+//life_vShop_rentalOnly = ["I_MRAP_03_hmg_F"];
+//__CONST__(life_vShop_rentalOnly,life_vShop_rentalOnly); //These vehicles can never be bought and only 'rented'. Used as a balancer & money sink. If you want your server to be chaotic then fine.. Remove it..
 
 life_inv_items = 
 [

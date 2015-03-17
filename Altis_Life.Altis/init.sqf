@@ -18,7 +18,6 @@ life_versionInfo = "Altis Life RPG";
 [] execVM "script\teargas.sqf"; //Load Teargas Script for Cops
 [] execVM "script\savezone.sqf"; //Load the Savezones
 [] execVM "script\fn_statusBar.sqf"; //Load the Statusbar
-//[] execVM "script\hero\loop.sqf";
 [] execVM "script\Wetterdienst.sqf";
 enableEnvironment true;
 setTerrainGrid 45;
