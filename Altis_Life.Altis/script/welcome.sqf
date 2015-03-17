@@ -1,6 +1,6 @@
 /*
 	File: welcome.sqf
-	Author: freakstone
+	Author: The-Last-of-Altis
 	Date: 26.6.2014
 */
 
@@ -18,13 +18,13 @@ _role1names = ["The Last of Altis"];
 _role2 = "Server Inhaber";
 _role2names = ["Aquaman"];
 _role3 = "Map Edit by";
-_role3names = ["Freakstone"];
+_role3names = ["CrazySnK | Hightower | BazzInc"];
 _role4 = "Offizieller TeamSpeak";
-_role4names = ["DerDickee.nitrado.net"];
+_role4names = ["derdickee.nitrado.net"];
 _role8 = "Offizielles Forum";
 _role8names = ["Folgt"];
  _role9 = "Server Restarts";
-_role9names = ["0,6,9,12,15,18,21"];
+_role9names = ["0,4,8,12,16,20"];
 
 {
 sleep 2;
