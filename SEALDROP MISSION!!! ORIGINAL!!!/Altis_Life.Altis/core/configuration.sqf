@@ -88,18 +88,19 @@ life_delivery_in_progress = false;
 life_action_in_use = false;
 life_thirst = 100;
 life_hunger = 100;
-life_battery = 50;
+life_battery = 100;
 __CONST__(life_paycheck_period,10); //Five minutes
 life_cash = 0;
-__CONST__(life_impound_car,2500);
-__CONST__(life_impound_boat,1000);
-__CONST__(life_impound_air,7500);
+__CONST__(life_impound_car,5000);
+__CONST__(life_impound_boat,7500);
+__CONST__(life_impound_air,10000);
 life_istazed = false;
 life_my_gang = ObjNull;
 life_drugged_cocaine = -1;
 life_drugged_cocaine_duration = 10; 
 life_drugged_weed = -1;
 life_drugged_weed_duration = 3;
+life_fadeSound = false;
 
 life_vehicles = [];
 bank_robber = [];

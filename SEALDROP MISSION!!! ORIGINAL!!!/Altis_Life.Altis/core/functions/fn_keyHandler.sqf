@@ -133,6 +133,16 @@ switch (_code) do
 		};
 	};
 	
+	//Kopfhörer - Shift - P
+	case 25:
+	{
+		if(_shift) then	
+		{
+		[] call life_fnc_fadeSound;
+		_handled = true;
+		};
+	};
+	
 	//Restraining (Shift + R)
 	case 19:
 	{

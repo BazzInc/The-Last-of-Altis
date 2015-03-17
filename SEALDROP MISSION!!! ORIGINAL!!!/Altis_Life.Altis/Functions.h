@@ -291,6 +291,7 @@ class Life_Client_Core
 		class fatigueReset {};
 		class introCam {};
 		class ryn_message {};
+		class fadeSound {};
 	};
 	
 	class Network
