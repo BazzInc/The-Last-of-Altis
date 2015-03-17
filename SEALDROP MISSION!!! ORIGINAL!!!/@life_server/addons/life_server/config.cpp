@@ -141,6 +141,7 @@ class CfgFunctions
 			class removeGang {};
 			class updateGang {};
 		};
+		
 		class Paintball
 		{
 			file = "\life_server\Functions\paintball";
