@@ -47,7 +47,7 @@ switch (_shop) do
 			["C_Offroad_01_F",12500],
 			["C_SUV_01_F",35000],
 			["C_Van_01_transport_F",40000],
-			["C_Hatchback_01_sport_F",3500000]
+			["C_Hatchback_01_sport_F",35000]
 		];
 	}; 
 
