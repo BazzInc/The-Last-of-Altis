@@ -24,7 +24,7 @@ _role4names = ["derdickee.nitrado.net"];
 _role8 = "Offizielles Forum";
 _role8names = ["www.the-last-of-altis.de"];
  _role9 = "Server Restarts";
-_role9names = ["0,8,12,16,20"];
+_role9names = ["0,3,6,9,12,15,18,21"];
 
 {
 sleep 2;
