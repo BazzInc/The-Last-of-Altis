@@ -31,7 +31,7 @@ player addRating 9999999;
 while {true} do
     {
         waitUntil {uniform player == "U_C_Poloshirt_stripped"};
-        player setObjectTextureGlobal [0,"skins\tshirt.jpg"];
+        //player setObjectTextureGlobal [0,"skins\tshirt.jpg"];
         waitUntil {uniform player != "U_C_Poloshirt_stripped"};
     };
 };
