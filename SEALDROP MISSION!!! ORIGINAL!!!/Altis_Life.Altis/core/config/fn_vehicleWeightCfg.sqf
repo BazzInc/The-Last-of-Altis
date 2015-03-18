@@ -49,5 +49,6 @@ switch (_className) do
 	case "C_Van_01_fuel_F": {100};
 	case "B_Truck_01_covered_F": {500};
 	case "B_Truck_01_ammo_F": {550};
+	case "O_Heli_Transport_04_box_F: {1000};
 	default {-1};
 };
