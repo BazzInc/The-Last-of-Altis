@@ -131,6 +131,5 @@ _dome allowDamage false;
 life_server_isReady = true;
 publicVariable "life_server_isReady";
 
-pb_spieler = [];
-pb_spielstatus = 0;
-pb_maxspieler = 10;
+/* Initialize hunting zone(s) */
+["hunting_zone",30] spawn TON_fnc_huntingZone;

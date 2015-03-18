@@ -17,6 +17,21 @@
 			<Italian>Vendi</Italian>
 			<Portuguese>Vender</Portuguese>
 		</Key>
+		<Key ID="STR_Item_henraw">
+            <Original>Rohes Hünchenfleisch</Original>
+        </Key>
+        <Key ID="STR_Item_roosterraw">
+            <Original>Rohes Hähnchenfleisch</Original>
+        </Key>
+        <Key ID="STR_Item_goatraw">
+            <Original>Rohes Ziegenfleisch</Original>
+        </Key>
+        <Key ID="STR_Item_sheepraw">
+            <Original>Rohes Schaaffleisch</Original>
+        </Key>
+        <Key ID="STR_Item_rabbitraw">
+            <Original>Rohes Hasenfleisch</Original>
+        </Key>
 		<Key ID="STR_Global_Buy">
 			<Original>Buy</Original>
 			<English>Buy</English>

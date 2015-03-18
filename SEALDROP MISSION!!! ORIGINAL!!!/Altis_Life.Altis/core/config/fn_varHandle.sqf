@@ -96,6 +96,11 @@ switch (_mode) do
             case "uranium": {"life_inv_uranium"}; // Add This
 			case "kidney": {"life_inv_kidney"};
 			case "scalpel": {"life_inv_scalpel"};
+			case "henraw": {"life_inv_henraw"};
+            case "roosterraw": {"life_inv_roosterraw"};
+            case "goatraw": {"life_inv_goatraw"};
+            case "sheepraw": {"life_inv_sheepraw"};
+            case "rabbitraw": {"life_inv_rabbitraw"};
 		};
 	};
 	
@@ -182,6 +187,11 @@ switch (_mode) do
             case "life_inv_uranium": {"uranium"}; // Add This 
 			case "life_inv_kidney": {"kidney"};
 			case "life_inv_scalpel": {"scalpel"};
+			case "life_inv_henraw": {"henraw"};
+            case "life_inv_roosterraw": {"roosterraw"};
+            case "life_inv_goatraw": {"goatraw"};
+            case "life_inv_sheepraw": {"sheepraw"};
+            CASE "life_inv_rabbitraw": {"rabbitraw"};
 		};
 	};
 };

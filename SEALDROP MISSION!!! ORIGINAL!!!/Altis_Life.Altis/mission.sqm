@@ -48377,7 +48377,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=332;
+		items=334;
 		class Item0
 		{
 			position[]={8471.8662,106.60769,25129.486};
@@ -51070,6 +51070,24 @@ class Mission
 			type="mil_dot";
 			colorName="ColorRed";
 			angle=19.439888;
+		};
+		class Item332
+		{
+			position[]={12635.13,100.13593,21171.486};
+			name="hunting_zone";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorWhite";
+			a=1000;
+			b=1000;
+		};
+		class Item333
+		{
+			position[]={12647.566,97.141808,21183.93};
+			name="hunting_marker";
+			text="Jagdgebiet";
+			type="mil_join";
+			colorName="ColorRed";
 		};
 	};
 	class Sensors

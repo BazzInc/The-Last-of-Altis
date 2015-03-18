@@ -92,6 +92,11 @@ switch (_var) do
     case "life_inv_uranium": {"Uran"}; // Add This
 	case "life_inv_kidney": {"Niere"}; 
 	case "life_inv_scalpel": {"Scalpel"};
+	case "life_inv_henraw": {(localize "STR_Item_henraw")};
+    case "life_inv_roosterraw": {(localize "STR_Item_roosterraw")};
+    case "life_inv_goatraw": {(localize "STR_Item_goatraw")};
+    case "life_inv_sheepraw": {(localize "STR_Item_sheepraw")};
+    case "life_inv_rabbitraw": {(localize "STR_Item_rabbitraw")};
 	
 	//License Block
 	case "license_civ_driver": {"Führerschein"};
