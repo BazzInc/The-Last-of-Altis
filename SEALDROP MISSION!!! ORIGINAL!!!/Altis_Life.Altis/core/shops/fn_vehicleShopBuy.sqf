@@ -81,6 +81,7 @@ switch(playerSide) do {
 	
 	case independent: {
 		[_vehicle,"med_offroad",true] spawn life_fnc_vehicleAnimate;
+		[_vehicle,"adac_offroad",true] spawn life_fnc_vehicleAnimate;
 	};
 };
 

@@ -468,9 +468,12 @@ class Life_Client_Core
 		class gangDeposit {};
 	};
 	
-	class Paintball
-	{
-		file = "core\paintball";
-		class pb_response {};
-	};
+	class Adac
+    {
+        file = "core\adac";
+        
+        class adacSirenLights {};
+		class adacLights {};
+        
+    };
 };

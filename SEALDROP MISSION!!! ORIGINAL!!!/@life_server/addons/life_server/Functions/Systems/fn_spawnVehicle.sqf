@@ -111,3 +111,7 @@ if((_vInfo select 1) == "med" && (_vInfo select 2) in ["C_Offroad_01_F","C_SUV_0
 };
 [[1,"Your vehicle is ready!"],"life_fnc_broadcast",_unit,false] spawn life_fnc_MP;
 serv_sv_use = serv_sv_use - [_vid];
+if((_vInfo select 1) == "adac" && (_vInfo select 2) == "C_Offroad_01_F") then
+{
+    [[_vehicle,"adac_offroad",true],"life_fnc_vehicleAnimate",_unit,false] spawn life_fnc_MP;
+};

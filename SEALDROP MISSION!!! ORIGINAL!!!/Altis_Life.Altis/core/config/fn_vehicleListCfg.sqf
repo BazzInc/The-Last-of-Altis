@@ -18,8 +18,7 @@ switch (_shop) do
 		[
 			["B_Heli_Light_01_F",10],
 			["O_Heli_Light_02_unarmed_F",10],
-			["I_Heli_Transport_02_F",10],
-			["I_Heli_light_03_unarmed_F",10]
+			["I_Heli_Transport_02_F",10]
 		];
 	};
 

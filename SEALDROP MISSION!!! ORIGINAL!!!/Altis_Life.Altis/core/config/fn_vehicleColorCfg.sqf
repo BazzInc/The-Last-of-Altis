@@ -233,8 +233,8 @@ switch (_vehicle) do
 		_ret =
 		[
 			[_path + "hellcat.jpg","cop"],
-			[_path + "hellcat_adac.jpg","adac"],
-			[_path + "sek_hellcat.jpg","cop"]
+			[_path + "ADAC_hellcat.jpg","adac"],
+			[_path + "sek_hellcat.paa","cop"]
 		];
 	};
 
