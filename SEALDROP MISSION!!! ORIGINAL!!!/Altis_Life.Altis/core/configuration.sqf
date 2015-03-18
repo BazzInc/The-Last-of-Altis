@@ -44,6 +44,8 @@ life_sitting = false;
 life_firstSpawn = false;
 life_sex_ill = 0;
 life_checked = 0;
+//Channel 7
+life_channel_send = true;
 
 
 //Persistent Saving

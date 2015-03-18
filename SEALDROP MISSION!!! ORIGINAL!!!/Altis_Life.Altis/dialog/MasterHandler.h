@@ -35,3 +35,4 @@
 #include "LicensesDialog.hpp"
 #include "craft.hpp"
 #include "jail_time.hpp"
+#include "channel.hpp"

@@ -240,6 +240,7 @@ class Life_Client_Core
 		class revokeLicense {};
 		class craft {};
 		class craft_update {};
+		class AAN {};
 	};
 	
 	class Functions
@@ -468,6 +469,7 @@ class Life_Client_Core
 		class safeFix {};
 		class vehicleGarage {};
 		class gangDeposit {};
+		class sendChannel {};
 	};
 	
 	class Adac
