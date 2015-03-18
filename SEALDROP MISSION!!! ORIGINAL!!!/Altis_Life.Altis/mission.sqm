@@ -210,8 +210,8 @@ class Mission
 	randomSeed=2004553;
 	class Intel
 	{
-		briefingName="SealDrop Altis Life RPG";
-		overviewText="SealDrop.de Altis Life";
+		briefingName="Altis Life RPG";
+		overviewText="The Last of Altis Altis Life";
 		startWeather=0.1;
 		startWind=0.29999998;
 		startWindDir=20;
