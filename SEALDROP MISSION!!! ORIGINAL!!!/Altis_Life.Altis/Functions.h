@@ -325,6 +325,7 @@ class Life_Client_Core
 		class removeWeapons {};
 		class civLoadout {};
 		class hasOrgan {};
+		class hooker{};
 	};
 	
 	class Vehicle

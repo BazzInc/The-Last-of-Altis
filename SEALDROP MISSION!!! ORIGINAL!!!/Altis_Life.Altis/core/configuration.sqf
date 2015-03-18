@@ -42,6 +42,8 @@ life_request_timer = false;
 life_markers = false;
 life_sitting = false;
 life_firstSpawn = false;
+life_sex_ill = 0;
+life_checked = 0;
 
 
 //Persistent Saving
