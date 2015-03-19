@@ -39,6 +39,13 @@ switch (_side) do
 			["civ_spawn_training","Schießplatz","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
 		];
 		
+		if((getPlayerUID player) in ["76561198044030198","76561198042695710","76561198043207915","76561198131752034","76561198030466667"])then 
+		{
+			_return = _return + [
+				["blume_spawn_1","Blume&Co HQ","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+			];
+		};	
+		
 		if(__GETC__(life_donator) == 3) then 
 		{
 			_return = _return + [
@@ -50,7 +57,7 @@ switch (_side) do
 		if(__GETC__(life_donator) == 1) then
 		{
 			_return = _return + [
-				["blume_spawn_1","Blume & Co HQ","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+				["don_spawn_1","Donator HQ","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
 			];
 		};
 		
