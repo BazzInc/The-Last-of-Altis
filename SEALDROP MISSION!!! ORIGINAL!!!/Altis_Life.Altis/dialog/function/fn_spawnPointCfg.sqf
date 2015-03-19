@@ -50,7 +50,7 @@ switch (_side) do
 		if(__GETC__(life_donator) == 1) then
 		{
 			_return = _return + [
-				["don_spawn_1","Donator HQ","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+				["blume_spawn_1","Blume & Co HQ","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
 			];
 		};
 		
@@ -72,6 +72,7 @@ switch (_side) do
 		};	
 	};
 	
+	
 	case independent: {
 		_return = [
 			["medic_spawn_1","Arzt HQ","\a3\ui_f\data\map\MapControl\hospital_ca.paa"],
@@ -82,12 +83,4 @@ switch (_side) do
 	};
 };
 
-		//Hier könnte man z.B. einen Spawnpunkt für gelistete Gangs anhand der PUID definieren
-		if((getPlayerUID player) in ["76561197989604250","#################","######################","#############################"])then {
-			_ret = _ret + [
-				["spawn_base_blume","Blume und Co","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
-		];
-	};
- };
- 
 _return;
