@@ -24,7 +24,7 @@ switch (_filter) do
 			["U_O_CombatUniform_ocamo",nil,15000],
 			["U_O_CombatUniform_oucamo",nil,17500],
 			["U_I_G_resistanceLeader_F",nil,11500],
-			["U_O_SpecopsUniform_ocamo",nil,17500],
+			["U_O_SpecopsUniform_ocamo",nil,27500],
 			["U_O_PilotCoveralls",nil,15000],
 			["U_IG_leader","Guerilla Leader",10000],
 			["U_O_GhillieSuit",nil,15000],
