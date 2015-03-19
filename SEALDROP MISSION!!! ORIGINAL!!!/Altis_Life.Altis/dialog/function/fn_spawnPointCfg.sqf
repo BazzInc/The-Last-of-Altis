@@ -39,7 +39,7 @@ switch (_side) do
 			["civ_spawn_training","Schießplatz","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
 		];
 		
-		if((getPlayerUID player) in ["76561198044030198","76561198042695710","76561198043207915","76561198131752034","76561198030466667"])then 
+		if((getPlayerUID player) in ["76561198044030198","76561198042695710","76561198043207915","76561198131752034","76561198030466667","76561197989604250"])then 
 		{
 			_return = _return + [
 				["blume_spawn_1","Blume&Co HQ","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
