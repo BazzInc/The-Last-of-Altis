@@ -45944,7 +45944,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Billboard_F";
 			skill=0.60000002;
-			init="this allowDamage false; this setObjectTexture [0, ""gangs/blume&Co.jpg""]";
+			init="this allowDamage false; this setObjectTexture [0, ""blume.jpg""]";
 		};
 	};
 	class Markers
