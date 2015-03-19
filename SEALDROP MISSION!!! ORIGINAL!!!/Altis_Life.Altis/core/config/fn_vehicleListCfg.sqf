@@ -16,9 +16,9 @@ switch (_shop) do
 	{
 		_return = 
 		[
-			["B_Heli_Light_01_F",10],
-			["O_Heli_Light_02_unarmed_F",10],
-			["I_Heli_Transport_02_F",10]
+			["B_Heli_Light_01_F",0],
+			["O_Heli_Light_02_unarmed_F",0],
+			["I_Heli_Transport_02_F",0]
 		];
 	};
 
@@ -26,14 +26,14 @@ switch (_shop) do
 	{
 		_return = 
 		[
-			["C_Offroad_01_F",10],
-			["C_Offroad_01_repair_F",10],
-			["C_Van_01_box_F",10],
-			["B_Truck_01_transport_F",10],
-			["I_Truck_02_medical_F",10],
-			["O_Truck_03_medical_F",10],
-			["B_Truck_01_medical_F",10],
-			["C_SUV_01_F",10]
+			["C_Offroad_01_F",0],
+			["C_Offroad_01_repair_F",0],
+			["C_Van_01_box_F",0],
+			["B_Truck_01_transport_F",0],
+			["I_Truck_02_medical_F",0],
+			["O_Truck_03_medical_F",0],
+			["B_Truck_01_medical_F",0],
+			["C_SUV_01_F",0]
 		];
 	};
 
@@ -41,10 +41,10 @@ switch (_shop) do
 	{
 		_return = 
 		[
-			["B_Quadbike_01_F",2500],
+			["B_Quadbike_01_F",7500],
 			["C_Van_01_fuel_F",40000],
-			["C_Hatchback_01_F",9500],
-			["C_Offroad_01_F",12500],
+			["C_Hatchback_01_F",22500],
+			["C_Offroad_01_F",32500],
 			["C_SUV_01_F",35000],
 			["C_Van_01_transport_F",40000],
 			["C_Hatchback_01_sport_F",35000]
@@ -55,7 +55,7 @@ switch (_shop) do
 	{
 		_return =
 		[
-			["C_Offroad_01_F",15000] //Service Truck
+			["C_Offroad_01_F",35000] //Service Truck
 		];
 	};
 	
@@ -63,7 +63,7 @@ switch (_shop) do
 	{
 		_return =
 		[
-			["C_Van_01_box_F",60000],
+			["C_Van_01_box_F",75000],
 			["I_Truck_02_transport_F",750000],
 			["I_Truck_02_covered_F",100000],
 			["B_Truck_01_transport_F",200000],
@@ -102,7 +102,7 @@ switch (_shop) do
 		_return =
 		[
 			["B_Quadbike_01_F",2500],
-			["B_G_Offroad_01_F",13000]
+			["B_G_Offroad_01_F",15000]
 		];
 	};
 	
