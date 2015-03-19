@@ -82,4 +82,12 @@ switch (_side) do
 	};
 };
 
+		//Hier könnte man z.B. einen Spawnpunkt für gelistete Gangs anhand der PUID definieren
+		if((getPlayerUID player) in ["76561197989604250","#################","######################","#############################"])then {
+			_ret = _ret + [
+				["spawn_base_blume","Blume und Co","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+		];
+	};
+ };
+ 
 _return;
