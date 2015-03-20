@@ -264,7 +264,7 @@ switch (_vehicle) do
 		[
 			[_path + "ifrit_r1.jpg","civ",_path + "ifrit_r2.jpg"],
 			["\A3\Soft_F\MRAP_02\data\mrap_02_ext_01_co.paa","civ","\A3\Soft_F\MRAP_02\data\mrap_02_ext_02_co.paa"],
-			[_path + "notarzt_ifrit_teil1.paa","med",_path + "notarzt_ifrit_teil2.paa","med"]
+			[_path + "notarzt_ifrit_teil1.paa","med",_path + "notarzt_ifrit_teil2.paa"]
 		];
 	};
 
