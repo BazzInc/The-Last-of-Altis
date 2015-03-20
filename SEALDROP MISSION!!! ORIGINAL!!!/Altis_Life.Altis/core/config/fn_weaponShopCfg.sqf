@@ -271,6 +271,7 @@ switch(_shop) do
 						["hgun_P07_F",nil,15000],
 						["srifle_DMR_01_F",nil,300000],
 						["arifle_SDAR_F",nil,75000],
+						["srifle_LRR_LRPS_F","Sniper 408",1500000],
 						["acc_flashlight",nil,7500],
 						["acc_pointer_IR",nil,15000],
 						["optic_ACO_grn",nil,5000],
@@ -279,6 +280,8 @@ switch(_shop) do
 						["optic_Hamr",nil,10500],
 						["optic_NVS",nil,20000],
 						["optic_DMS",nil,40000],
+						["optic_Nightstalker",nil,150000],
+						["optic_LRPS",nil,15000],
 						["30Rnd_9x21_Mag",nil,200],
 						["16Rnd_9x21_Mag",nil,150],
 						["SmokeShellGreen",nil,2500],
@@ -290,10 +293,7 @@ switch(_shop) do
 						["30Rnd_556x45_Stanag",nil,300],
 						["10Rnd_762x51_Mag","Rahim Magazin",500],
 						["30Rnd_65x39_caseless_green",nil,275],
-						["srifle_LRR_LRPS_F",Sniper 408,1500000],
-						["7Rnd_408_Mag",Magazin 408,1500],
-						["optic_Nightstalker",nil,150000],
-						["optic_LRPS",nil,15000]
+						["7Rnd_408_Mag","Magazin 408",1500]
 					]
 				];
 			};
