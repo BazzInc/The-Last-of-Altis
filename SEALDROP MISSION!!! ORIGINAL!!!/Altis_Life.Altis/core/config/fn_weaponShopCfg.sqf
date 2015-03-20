@@ -263,10 +263,6 @@ switch(_shop) do
 			{
 				["Mohammed's Waffen Laden",
 					[
-						["srifle_LRR_LRPS_F",Sniper 408,1500000],
-						["7Rnd_408_Mag",Magazin 408,1500],
-						["optic_Nightstalker",nil,150000],
-						["optic_LRPS",Visier 408,50000],
 						["arifle_TRG20_F",nil,350000],
 						["arifle_Katiba_F",nil,300000],
 						["srifle_EBR_F",nil,375000],
@@ -293,7 +289,11 @@ switch(_shop) do
 						["11Rnd_45ACP_Mag",nil,1000],
 						["30Rnd_556x45_Stanag",nil,300],
 						["10Rnd_762x51_Mag","Rahim Magazin",500],
-						["30Rnd_65x39_caseless_green",nil,275]
+						["30Rnd_65x39_caseless_green",nil,275],
+						["srifle_LRR_LRPS_F",Sniper 408,1500000],
+						["7Rnd_408_Mag",Magazin 408,1500],
+						["optic_Nightstalker",nil,150000],
+						["optic_LRPS",nil,15000]
 					]
 				];
 			};

@@ -471,7 +471,7 @@ life_weapon_shop_array =
 	["20Rnd_556x45_UW_mag",0],
 	["9Rnd_45ACP_Mag",0],
 	["11Rnd_45ACP_Mag",0],
-	["30Rnd_556x45_Stanag_Tracer_Red",0]
+	["30Rnd_556x45_Stanag_Tracer_Red",0],
 	["7Rnd_408_Mag",nil,0]
 ];
 __CONST__(life_weapon_shop_array,life_weapon_shop_array);
