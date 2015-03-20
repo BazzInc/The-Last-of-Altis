@@ -33,7 +33,8 @@ switch (_shop) do
 			["I_Truck_02_medical_F",0],
 			["O_Truck_03_medical_F",0],
 			["B_Truck_01_medical_F",0],
-			["C_SUV_01_F",0]
+			["C_SUV_01_F",0],
+			["O_MRAP_02_F",0]
 		];
 	};
 
@@ -154,6 +155,8 @@ switch (_shop) do
 		{
 			_return set[count _return,
 			["I_MRAP_03_F",250000]];
+			_return set[count _return,
+			["B_MRAP_01_hmg_F",250000]];
 		};
 	};
 	
@@ -162,7 +165,8 @@ switch (_shop) do
 		_return =
 		[
 			["B_Heli_Light_01_F",253000],
-			["O_Heli_Light_02_unarmed_F",750000]
+			["O_Heli_Light_02_unarmed_F",750000],
+			["C_Heli_Light_01_civil_F",500000]
 		];
 	};
 	
@@ -262,7 +266,8 @@ switch (_shop) do
 			["C_Kart_01_Blu_F",15000],
 			["C_Kart_01_Fuel_F",15000],
 			["C_Kart_01_Red_F",15000],
-			["C_Kart_01_Vrana_F",15000]
+			["C_Kart_01_Vrana_F",15000],
+			["C_Kart_01_Blu_F",15000]
 		];
 	};
 };

@@ -263,6 +263,10 @@ switch(_shop) do
 			{
 				["Mohammed's Waffen Laden",
 					[
+						["srifle_LRR_LRPS_F",Sniper 408,1500000],
+						["7Rnd_408_Mag",Magazin 408,1500],
+						["optic_Nightstalker",nil,150000],
+						["optic_LRPS",Visier 408,50000],
 						["arifle_TRG20_F",nil,350000],
 						["arifle_Katiba_F",nil,300000],
 						["srifle_EBR_F",nil,375000],

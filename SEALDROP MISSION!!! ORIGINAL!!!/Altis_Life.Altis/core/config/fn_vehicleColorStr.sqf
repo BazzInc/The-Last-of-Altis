@@ -183,6 +183,14 @@ switch (_vehicle) do
 			case 2: {_color = "Polizei"};
 		};
 	};
+	
+	case "B_MRAP_01_hmg_F":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "SEK"};
+		};
+	};
 
 	case "O_MRAP_02_F":
 	{
@@ -190,6 +198,7 @@ switch (_vehicle) do
 		{
 			case 0: {_color = "FleckTarn (Rot)"};
 			case 1: {_color = "Rebellen Tarnung"};
+			case 2: {_color = "Notarzt"};
 		};
 	};
 	

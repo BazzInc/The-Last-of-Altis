@@ -67,7 +67,7 @@ switch (_vehicle) do
 			[_path + "civ_offroad_dodge.jpg","civ"],
 			[_path + "civ_offroad_weed.jpg","civ"], 
 			[_path + "monsterenergy_off.jpg","civ"],
-			[_path + "adac_offroad.jpg","adac"]
+			[_path + "adac_offroad.jpg","med"]
 		];
 	};
 	
@@ -76,7 +76,7 @@ switch (_vehicle) do
 		_path = "skins\car\";
 		_ret =
 		[
-			[_path + "adac_offroad.jpg","adac"]
+			[_path + "adac_offroad.jpg","med"]
 		];
 	};
 	
@@ -115,7 +115,7 @@ switch (_vehicle) do
 			[_path + "civ_suv_ferrari.jpg","civ"],
 			[_path + "civ_suv_skull.jpg","civ"],
 			[_path + "kitty.jpg","civ"],
-			[_path + "suv_adac1.paa","adac"]
+			[_path + "suv_adac1.paa","med"]
 		];
 	};
 	
@@ -189,7 +189,7 @@ switch (_vehicle) do
 			["\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_civilian_co.paa","civ"],
 			["\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_indp_co.paa","civ"],
 			["\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_opfor_co.paa","civ"],
-			[_path + "adac_orca.jpg","adac"],
+			[_path + "adac_orca.jpg","med"],
 			[_path + "medic_orca.jpg","med"],
 			[_path + "orca_polizei.paa","cop"]
 		];
@@ -203,6 +203,15 @@ switch (_vehicle) do
 			[_path + "hunter_sek_front1.paa","cop",_path + "hunter_sek_hinten1.paa"],
 			[_path + "donator_hunter_front.jpg","civ",_path + "donator_hunter_hinten.jpg"],
 			[_path + "hunterpol_1.jpg","cop",_path + "hunterpol_2.jpg"]
+		];
+	};
+	
+	case "B_MRAP_01_hmg_F":
+	{
+		_path = "skins\car\";
+		_ret = 
+		[
+			[_path + "hunter_sek_front1.paa","cop",_path + "hunter_sek_hinten1.paa"]
 		];
 	};
 	
@@ -233,8 +242,8 @@ switch (_vehicle) do
 		_ret =
 		[
 			[_path + "hellcat.jpg","cop"],
-			[_path + "ADAC_hellcat.jpg","adac"],
-			[_path + "sek_hellcat.paa","cop"]
+			[_path + "ADAC_hellcat.jpg","med"],
+			[_path + "sek_hellcat.jpg","cop"]
 		];
 	};
 
@@ -254,7 +263,8 @@ switch (_vehicle) do
 		_ret =
 		[
 			[_path + "ifrit_r1.jpg","civ",_path + "ifrit_r2.jpg"],
-			["\A3\Soft_F\MRAP_02\data\mrap_02_ext_01_co.paa","civ","\A3\Soft_F\MRAP_02\data\mrap_02_ext_02_co.paa"]
+			["\A3\Soft_F\MRAP_02\data\mrap_02_ext_01_co.paa","civ","\A3\Soft_F\MRAP_02\data\mrap_02_ext_02_co.paa"],
+			[_path + "notarzt_ifrit_teil1.paa","civ",_path + "notarzt_ifrit_teil2.paa"],
 		];
 	};
 
@@ -282,7 +292,7 @@ switch (_vehicle) do
 		[
 			[_path + "civ_hemtt_devil_0.jpg","civ",_path + "civ_hemtt_devil_1.jpg"],
 			[_path + "civ_hemtt_kitty_0.jpg","civ",_path + "civ_hemtt_kitty_1.jpg"],
-			[_path + "adac_hemtt.jpg","adac"]
+			[_path + "adac_hemtt.jpg","med"]
 		];
 	};
 	case "B_Truck_01_covered_F":
@@ -319,7 +329,7 @@ switch (_vehicle) do
 		_path = "skins\car\";
 		_ret =
 		[
-			[_path + "hemtt_mover_adac.paa","ADAC"]
+			[_path + "hemtt_mover_adac.paa","med"]
 
 		];
 	};
