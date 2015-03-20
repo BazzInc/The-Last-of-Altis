@@ -44,7 +44,7 @@ switch (_className) do
 	case "I_Truck_02_box_F": {650};
 	case "O_Truck_03_device_F": {650};
 	case "Land_CargoBox_V1_F": {400};
-	case "Box_IND_Grenades_F": {250};
+	case "Box_IND_Grenades_F": {500};
 	case "B_supplyCrate_F": {250};
 	case "C_Van_01_fuel_F": {100};
 	case "B_Truck_01_covered_F": {500};
