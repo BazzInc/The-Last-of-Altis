@@ -4,32 +4,32 @@ _robber = [_this,1,ObjNull,[ObjNull]] call BIS_fnc_param; //Can you guess? Alrig
 //_kassa = 1000; //The amount the shop has to rob, you could make this a parameter of the call (https://community.bistudio.com/wiki/addAction). Give it a try and post below ;)
 _action = [_this,2] call BIS_fnc_param;//Action name
 
-if(side _robber != civilian) exitWith { hint "You can not rob this station!" };
-if(_robber distance _shop > 5) exitWith { hint "You need to be within 5m of the cashier to rob him!" };
+if(side _robber != civilian) exitWith { hint "Du kannst die Tankstelle nicht ausrauben!" };
+if(_robber distance _shop > 5) exitWith { hint "Du musst in einem Radius von 5m sein um die Tankstelle auszurauben!" };
 
 if !(_kassa) then { _kassa = 1000; };
-if (_rip) exitWith { hint "Robbery already in progress!" };
-if (vehicle player != _robber) exitWith { hint "Get out of your vehicle!" };
+if (_rip) exitWith { hint "Raubüberfall ist im gange!" };
+if (vehicle player != _robber) exitWith { hint "Raus aus dem Fahrzeug!" };
 
 if !(alive _robber) exitWith {};
-if (currentWeapon _robber == "") exitWith { hint "HaHa, you do not threaten me! Get out of here you hobo!" };
-if (_kassa == 0) exitWith { hint "There is no cash in the register!" };
+if (currentWeapon _robber == "") exitWith { hint "HaHa, ohne Waffe wird das wohl nix du Affe!" };
+if (_kassa == 0) exitWith { hint "Keine Kohle in der Kasse!" };
 
 _rip = true;
 _kassa = 10000 + round(random 10000);
 _shop removeAction _action;
 _shop switchMove "AmovPercMstpSsurWnonDnon";
 _chance = random(100);
-if(_chance >= 85) then { hint "The cashier hit the silent alarm, police has been alerted!"; [[1,format["ALARM! - Gasstation: %1 is being robbed!", _shop]],"life_fnc_broadcast",west,false] spawn life_fnc_MP; };
+if(_chance >= 85) then { hint "Der Angestellte hat einen Stillen Alarm an die Polizei gesendet!"; [[1,format["ALARM! - Tankstelle: %1 wird ausgerbaut!", _shop]],"life_fnc_broadcast",west,false] spawn life_fnc_MP; };
 
 _cops = (west countSide playableUnits);
-if(_cops < 2) exitWith{[[_vault,-1],"disableSerialization;",false,false] spawn life_fnc_MP; hint "There isnt enough Police to rob gas station!";};
+if(_cops < 3) exitWith{[[_vault,-1],"disableSerialization;",false,false] spawn life_fnc_MP; hint "Es sind nicht genug Cops Online";};
 disableSerialization;
 5 cutRsc ["life_progress","PLAIN"];
 _ui = uiNameSpace getVariable "life_progress";
 _progress = _ui displayCtrl 38201;
 _pgText = _ui displayCtrl 38202;
-_pgText ctrlSetText format["Robbery in Progress, stay close (10m) (1%1)...","%"];
+_pgText ctrlSetText format["Raubüberfall läuft bleib in einem Radius von (10m) (1%1)...","%"];
 _progress progressSetPosition 0.01;
 _cP = 0.01;
  
@@ -54,7 +54,7 @@ if!(alive _robber) exitWith { _rip = false; };
 if(_robber distance _shop > 10.5) exitWith { deleteMarker "Marker200"; _shop switchMove ""; hint "You need to stay within 10m to Rob registry! - Now the registry is locked."; 5 cutText ["","PLAIN"]; _rip = false; };
 5 cutText ["","PLAIN"];
 
-titleText[format["You have stolen $%1, now get away before the cops arrive!",[_kassa] call life_fnc_numberText],"PLAIN"];
+titleText[format["Du hast $%1,erbeutet nun hau ab bevor die cops da sind!",[_kassa] call life_fnc_numberText],"PLAIN"];
 deleteMarker "Marker200"; // by ehno delete maker
 life_cash = life_cash + _kassa;
 

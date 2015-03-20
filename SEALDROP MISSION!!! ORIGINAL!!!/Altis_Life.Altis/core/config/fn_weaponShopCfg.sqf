@@ -40,7 +40,7 @@ switch(_shop) do
 	{
 		switch(true) do
 		{
-			case (playerSide != west): {"You are not a cop!"};
+			case (playerSide != west): {"Du bist kein Polizist!!"};
 			case (__GETC__(life_coplevel) < 1): {"Du kannst erst als Polizist hier Zugreifen !"};
 			default
 			{
@@ -257,7 +257,7 @@ switch(_shop) do
 	{
 		switch(true) do
 		{
-			case (playerSide != civilian): {"You are not a cop!"};
+			case (playerSide != civilian): {"Du bist kein Polizist!!"};
 			case (!license_civ_rebel): {"Du besitz keine Rebellen Lizenz!"};
 			default
 			{
@@ -271,7 +271,7 @@ switch(_shop) do
 						["hgun_P07_F",nil,15000],
 						["srifle_DMR_01_F",nil,300000],
 						["arifle_SDAR_F",nil,75000],
-						["srifle_LRR_LRPS_F","Sniper 408",1500000],
+						["srifle_LRR_F","Sniper 408",1500000],
 						["acc_flashlight",nil,7500],
 						["acc_pointer_IR",nil,15000],
 						["optic_ACO_grn",nil,5000],
@@ -304,7 +304,7 @@ switch(_shop) do
 	{
 		switch(true) do
 		{
-			case (playerSide != civilian): {"You are not a cop!"};
+			case (playerSide != civilian): {"Du bist kein Polizist!!"};
 			case (!license_civ_gun): {"Du hast keinen Waffenschein!"};
 			default
 			{
@@ -329,7 +329,7 @@ switch(_shop) do
 	{
 		switch(true) do
 		{
-			case (__GETC__(life_donator) == 0): {"You are not a donator!"};
+			case (__GETC__(life_donator) == 0): {"Du bist kein Polizist!"};
 			case (__GETC__(life_donator) == 1):
 			{
 				["STS Donator Shop Rang 1",
