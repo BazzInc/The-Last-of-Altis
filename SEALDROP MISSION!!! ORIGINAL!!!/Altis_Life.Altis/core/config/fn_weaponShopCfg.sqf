@@ -329,7 +329,7 @@ switch(_shop) do
 	{
 		switch(true) do
 		{
-			case (__GETC__(life_donator) == 0): {"Du bist kein Polizist!"};
+			case (__GETC__(life_donator) == 0): {"Du bist kein VIP!"};
 			case (__GETC__(life_donator) == 1):
 			{
 				["STS Donator Shop Rang 1",
