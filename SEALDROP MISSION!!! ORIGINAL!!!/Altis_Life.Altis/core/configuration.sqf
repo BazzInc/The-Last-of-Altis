@@ -415,6 +415,7 @@ life_weapon_shop_array =
 	["arifle_MX_SW_F",0],	
 	["LMG_Zafir_F",0],
 	["srifle_GM6_F",0],
+	["srifle_LRR_LRPS_F",0],
 
 	["muzzle_snds_M",0],
 	["muzzle_snds_L",0],
@@ -434,6 +435,8 @@ life_weapon_shop_array =
 	["acc_pointer_IR",0],
 	["acc_flashlight",0],
 	["optic_Yorris",0],
+	["optic_Nightstalker",0],
+	["optic_LRPS",0],
 	
 	["HandGrenade_Stone",0],
 	
@@ -469,6 +472,7 @@ life_weapon_shop_array =
 	["9Rnd_45ACP_Mag",0],
 	["11Rnd_45ACP_Mag",0],
 	["30Rnd_556x45_Stanag_Tracer_Red",0]
+	["7Rnd_408_Mag",nil,0]
 ];
 __CONST__(life_weapon_shop_array,life_weapon_shop_array);
 

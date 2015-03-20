@@ -35,11 +35,7 @@ switch (_filter) do
 		["U_NikosBody","Niko's Clothes",1100],
 		["U_Marshal","Marshal Clothes",1100],
 		["U_C_Journalist","Journalist Clothes",2500],
-		["U_C_Poor_2","Hello Kitty",3500],
-		["C_Driver_1_F","Kartanzug Grün",5000],
-		["C_Driver_2_F","Kartanzug Blau",5000],
-		["C_Driver_3_F","Kartanzug Redstone",5000],
-		["C_Driver_4_F","Kartanzug Vrana",5000]
+		["U_C_Poor_2","Hello Kitty",3500]
 		];
 	};
 	
@@ -67,8 +63,7 @@ switch (_filter) do
 			["H_Cap_grn_BI",nil,150],
 			["H_Cap_oli",nil,150],
 			["H_Cap_red",nil,150],
-			["H_Cap_tan",nil,150],
-			["U_C_Driver_1_black",Karthelm,500]
+			["H_Cap_tan",nil,150]
 		];
 	};
 	
