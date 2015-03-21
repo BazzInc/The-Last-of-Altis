@@ -24,12 +24,12 @@ switch(_shop) do
 	{
 		switch(true) do
 		{
-			case (playerSide !=west): {"Du bist kein Azubi"};
+			case (playerSide !=west): {"Du bist kein Polizist"};
 			default
 			{
 				["Praktikant Waffenladen",
 					[
-					    ["hgun_Rook40_snds_F","Taser-Pistole Silenced",10],
+					    ["hgun_Rook40_snds_F","Taser-Pistole Silenced",50],
 						["16Rnd_9x21_Mag","Taser Magazin",10],
 						["Rangefinder",nil,10]
 					]
@@ -139,9 +139,9 @@ switch(_shop) do
 			{
 				["Azubi Waffenladen",
 					[
-						["hgun_Rook40_snds_F","Taser-Pistole Silenced",10],
+						["hgun_Rook40_snds_F","Taser-Pistole Silenced",50],
 						["16Rnd_9x21_Mag","Taser Magazin",10],
-						["hgun_PDW2000_F","PDW-2000",10],
+						["hgun_PDW2000_F","PDW-2000",100],
 						["30Rnd_9x21_Mag","PDW-2000 Magazin",10]
 					]
 				];
@@ -157,15 +157,14 @@ switch(_shop) do
 			case (__GETC__(life_coplevel) < 3): {"Du bist noch kein Kommissar"};
 			default
 			{
-				["Kommisar Waffen Shop",
+				["Beamter Waffenladen",
 					[
-						["arifle_MXC_F",nil,10],
-						["arifle_MX_F",nil,10],
-						["arifle_sdar_F","Taser Sturmgewehr",10],
-						["SMG_02_F",nil,10],
-						["30Rnd_65x39_caseless_mag","6,5mm Scharf",10],
-						["30Rnd_9x21_Mag","9mm-Gummi",10],
-						["20Rnd_556x45_UW_mag","Taser Waffe Magazin",10]
+						["hgun_Rook40_snds_F","Taser-Pistole Silenced",50],
+						["16Rnd_9x21_Mag","Taser Magazin",10],
+						["hgun_PDW2000_F","PDW-2000",100],
+						["30Rnd_9x21_Mag","PDW-2000 Magazin",10],
+						["arifle_MX_Black_F","MX-Sturmgewehr",100],
+						["30Rnd_65x39_caseless_mag","30er MX-Sturmgewehrmagazin",10]
 					]
 				];
 			};
