@@ -27,7 +27,7 @@ switch(_shop) do
 			case (playerSide !=west): {"Du bist kein Azubi"};
 			default
 			{
-				["Praktikant Waffemladen",
+				["Praktikant Waffenladen",
 					[
 					    ["hgun_Rook40_snds_F","Taser-Pistole Silenced",10],
 						["16Rnd_9x21_Mag","Taser Magazin",10],
