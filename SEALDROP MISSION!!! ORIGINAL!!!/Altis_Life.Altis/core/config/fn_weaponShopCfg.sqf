@@ -24,10 +24,10 @@ switch(_shop) do
 	{
 		switch(true) do
 		{
-			case (playerSide !=west): {"Du bist kein Polizist"};
+			case (playerSide !=west): {"Du bist kein Azubi"};
 			default
 			{
-				["Praktikant Polizei Shop",
+				["Praktikant Waffemladen",
 					[
 					    ["hgun_Rook40_snds_F","Taser-Pistole Silenced",10],
 						["16Rnd_9x21_Mag","Taser Magazin",10],
@@ -137,11 +137,11 @@ switch(_shop) do
 			case (__GETC__(life_coplevel) < 2): {"Du bist noch kein Komissar !"};
 			default
 			{
-				["Azubi-Waffen Shop",
+				["Azubi Waffenladen",
 					[
 						["hgun_Rook40_snds_F","Taser-Pistole Silenced",10],
-						["16Rnd_9x21_Mag","Taser Magazin",10]
-						["hgun_PDW2000_F","PDW-2000",10]
+						["16Rnd_9x21_Mag","Taser Magazin",10],
+						["hgun_PDW2000_F","PDW-2000",10],
 						["30Rnd_9x21_Mag","PDW-2000 Magazin",10]
 					]
 				];
