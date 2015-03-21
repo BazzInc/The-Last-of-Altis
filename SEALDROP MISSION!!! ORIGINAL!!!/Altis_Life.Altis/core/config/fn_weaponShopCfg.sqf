@@ -137,13 +137,12 @@ switch(_shop) do
 			case (__GETC__(life_coplevel) < 2): {"Du bist noch kein Komissar !"};
 			default
 			{
-				["Beamter Waffen Laden",
+				["Azubi-Waffen Shop",
 					[
-						["arifle_sdar_F","Taser Sturmgewehr",10],
-						["hgun_Rook40_F","Taser-Pistole",10],
 						["hgun_Rook40_snds_F","Taser-Pistole Silenced",10],
-						["16Rnd_9x21_Mag","Taser Magazin",10],
-						["20Rnd_556x45_UW_mag","Sturmtaser Magazin",10]
+						["16Rnd_9x21_Mag","Taser Magazin",10]
+						["hgun_PDW2000_F","PDW-2000",10]
+						["30Rnd_9x21_Mag","PDW-2000 Magazin",10]
 					]
 				];
 			};
