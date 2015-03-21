@@ -162,6 +162,7 @@ switch(_shop) do
 			{
 				["Landespolizei Waffenladen",
 					[
+						["HandGrenade_Stone","Blendgranate",10],
 						["hgun_Rook40_snds_F","Taser-Pistole Silenced",50],
 						["16Rnd_9x21_Mag","Taser Magazin",10],
 						["hgun_PDW2000_F","PDW-2000",100],
@@ -184,6 +185,7 @@ switch(_shop) do
 			{
 				["Bundespolizei Waffen Shop",
 					[
+						["HandGrenade_Stone","Blendgranate",10],
 						["hgun_Rook40_snds_F","Taser-Pistole Silenced",50],
 						["16Rnd_9x21_Mag","Taser Magazin",10],
 						["hgun_PDW2000_F","PDW-2000",100],
@@ -206,19 +208,19 @@ switch(_shop) do
 			case (__GETC__(life_coplevel) < 5): {"Du bist kein SEK-Beamter"};
 			default
 			{
-				["SEK Waffen Shop",
+				["SEK-Waffenladen",
 					[
-						["arifle_MXM_Black_F",nil,10],
-						["arifle_MX_Black_F",nil,10],
-						["arifle_MXC_Black_F",nil,10],
-						["SMG_02_F",nil,10],
-						["arifle_TRG21_F",nil,10],
-						["SmokeShellBlue","CE-Gas",10],
 						["HandGrenade_Stone","Blendgranate",10],
-						["SmokeShellOrange","Rauchgranate",10],
-						["30Rnd_65x39_caseless_mag","6,5mm Scharf",10],
-						["30Rnd_9x21_Mag",nil,10],
-						["30Rnd_556x45_Stanag",nil,10]
+						["hgun_Rook40_snds_F","Taser-Pistole Silenced",50],
+						["16Rnd_9x21_Mag","Taser Magazin",10],
+						["hgun_PDW2000_F","PDW-2000",100],
+						["30Rnd_9x21_Mag","PDW-2000 Magazin",10],
+						["srifle_LRR_LRPS_F","Scharfschützengewehr",200],
+						["7Rnd_408_Mag","Scharfschützenmagazin",100],
+						["arifle_MXM_Black_F","MXM Sturmgewehr",100],
+						["30Rnd_65x39_caseless_mag","30er MXM-Magazin",10],
+						["arifle_MX_SW_Black_F","MX-LMG",150],
+						["100Rnd_65x39_caseless_mag","100er LMG-Trommel",50]
 					]
 				];
 			};
@@ -233,23 +235,19 @@ switch(_shop) do
 			case (__GETC__(life_coplevel) < 6): {"Du bist kein GSG9-Beamter"};
 			default
 			{
-				["GSG9 Waffen Shop",
+				["GSG9-Waffenladen",
 					[
-						["arifle_MXM_Black_F",nil,10],
-						["arifle_MX_Black_F",nil,10],
-						["arifle_MXC_Black_F",nil,10],
-						["arifle_MX_SW_Black_F",nil,10],
-						["SMG_02_F",nil,10],
-						["srifle_EBR_F",nil,10],
-						["arifle_TRG21_F",nil,10],
-						["arifle_TRG20_F",nil,10],
-						["SmokeShellBlue","CE-Gas",10],
 						["HandGrenade_Stone","Blendgranate",10],
-						["SmokeShellOrange","Rauchgranaten",10],
-						["30Rnd_65x39_caseless_mag","6,5mm Scharf",10],
-						["20Rnd_762x51_Mag",nil,10],
-						["30Rnd_9x21_Mag",nil,10],
-						["100Rnd_65x39_caseless_mag",nil,10]
+						["hgun_Rook40_snds_F","Taser-Pistole Silenced",50],
+						["16Rnd_9x21_Mag","Taser Magazin",10],
+						["hgun_PDW2000_F","PDW-2000",100],
+						["30Rnd_9x21_Mag","PDW-2000 Magazin",10],
+						["srifle_LRR_LRPS_F","Scharfschützengewehr",200],
+						["7Rnd_408_Mag","Scharfschützenmagazin",100],
+						["arifle_MXM_Black_F","MXM Sturmgewehr",100],
+						["30Rnd_65x39_caseless_mag","30er MXM-Magazin",10],
+						["arifle_MX_SW_Black_F","MX-LMG",150],
+						["100Rnd_65x39_caseless_mag","100er LMG-Trommel",50]
 					]
 				];
 			};
