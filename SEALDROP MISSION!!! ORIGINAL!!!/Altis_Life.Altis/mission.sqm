@@ -48573,7 +48573,7 @@ class Mission
 		class Item328
 		{
 			position[]={15120.279,12.840175,11241.656};
-			name="Diamond_Mine_1";
+			name="diamond_1";
 			text="Diamantenmine";
 			type="mil_triangle";
 			colorName="ColorGrey";
