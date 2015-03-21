@@ -27,9 +27,11 @@ switch(_shop) do
 			case (playerSide !=west): {"Du bist kein Polizist"};
 			default
 			{
-				["Praktikanten Polizei Shop",
+				["Praktikant Polizei Shop",
 					[
-						["Rangefinder",nil,10]
+					    ["16Rnd_9x21_Mag","Taser Magazin",10],
+					    ["hgun_Rook40_snds_F","Taser-Pistole Silenced",10],
+						["Entfernungsmesser",nil,10]
 					]
 				];
 			};
@@ -140,8 +142,8 @@ switch(_shop) do
 						["arifle_sdar_F","Taser Sturmgewehr",10],
 						["hgun_Rook40_F","Taser-Pistole",10],
 						["hgun_Rook40_snds_F","Taser-Pistole Silenced",10],
-						["16Rnd_9x21_Mag","16er Magazin",10],
-						["20Rnd_556x45_UW_mag","556er Magazin",10]
+						["16Rnd_9x21_Mag","Taser Magazin",10],
+						["20Rnd_556x45_UW_mag","Sturmtaser Magazin",10]
 					]
 				];
 			};
