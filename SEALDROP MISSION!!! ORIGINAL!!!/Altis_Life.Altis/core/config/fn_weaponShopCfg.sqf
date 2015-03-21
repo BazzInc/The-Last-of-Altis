@@ -29,9 +29,9 @@ switch(_shop) do
 			{
 				["Praktikant Polizei Shop",
 					[
-					    ["16Rnd_9x21_Mag","Taser Magazin",10],
 					    ["hgun_Rook40_snds_F","Taser-Pistole Silenced",10],
-						["Entfernungsmesser",nil,10]
+						["16Rnd_9x21_Mag","Taser Magazin",10],
+						["Rangefinder",nil,10]
 					]
 				];
 			};
