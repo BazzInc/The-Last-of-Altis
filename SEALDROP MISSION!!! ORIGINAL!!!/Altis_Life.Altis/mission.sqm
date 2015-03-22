@@ -2171,7 +2171,7 @@ class Mission
 				class Item46
 				{
 					position[]={3271.1316,2.1860363,12973.289};
-					azimut=180.12375;
+					azimut=180;
 					special="NONE";
 					id=120;
 					side="WEST";
@@ -4527,7 +4527,7 @@ class Mission
 				class Item0
 				{
 					position[]={3272.9126,2.1939192,12973.298};
-					azimut=536.763;
+					azimut=185;
 					special="NONE";
 					id=252;
 					side="WEST";
@@ -46530,7 +46530,7 @@ class Mission
 		};
 		class Item77
 		{
-			position[]={25821.314,21.358133,21446.559};
+			position[]={25817.463,21.510521,21449.393};
 			name="civ_car_4";
 			type="Empty";
 			angle=-90.254326;
