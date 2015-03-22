@@ -85,20 +85,12 @@ switch (_shop) do
 			["B_G_Offroad_01_F",15000],
 			["O_MRAP_02_F",1800000],
 			["B_Heli_Light_01_F",325000],
-			["B_G_Offroad_01_armed_F",750000]
+			["B_G_Offroad_01_armed_F",750000],
+			["I_Heli_Transport_02_F",2000000],
+			["O_Heli_Light_02_unarmed_F",750000],
+			["O_Heli_Transport_04_box_F",10000000],
+			["B_Heli_Transport_03_unarmed_F",12500000]
 		];
-		
-		if(license_civ_rebel) then
-		{
-			_return set[count _return,
-			["I_Heli_Transport_02_F",2000000]];
-			_return set[count _return,
-			["O_Heli_Light_02_unarmed_F",750000]];
-			_return set[count _return,
-			["O_Heli_Transport_04_box_F",12500000]];
-			return set[count _return,
-			["B_Heli_Transport_03_F",15000000]];
-		};
 	};
 
 	case "reb_car":
