@@ -25,7 +25,7 @@ player createDiarySubject ["controls","Steuerung"];
 		[
 			"Official Change Log",
 				"
-					Housing, du kannst den Strom der Städte abstellen, und vieles Mehr <br/>
+					Housing, du kannst den Strom der Städte abstellen, und vieles mehr <br/>
 				"
 		]
 	];
@@ -71,7 +71,7 @@ player createDiarySubject ["controls","Steuerung"];
 		[
 			"Cop Interaction", 
 				"
-				Beleidigt keine Cops, dies fürt zum BAN!<br/>
+				Beleidigt keine Cops, dies führt zum BAN!<br/>
 				"
 		]
 	];
@@ -80,7 +80,7 @@ player createDiarySubject ["controls","Steuerung"];
 		[
 			"Boats", 
 				"
-				Jegliche art von schnell booten sind verboten!<br/>
+				Jegliche Art von schnellem booten ist verboten!<br/>
 				"
 		]
 	];
@@ -89,7 +89,7 @@ player createDiarySubject ["controls","Steuerung"];
 		[
 			"Aviation", 
 				"
-				Landen in Kavala nur mit erlaubnis der Polizei am Landeplatz<br/>
+				Landen in Kavala nur mit Erlaubnis der Polizei am Landeplatz<br/>
 				"
 		]
 	];
@@ -116,7 +116,7 @@ player createDiarySubject ["controls","Steuerung"];
 		[
 			"Random Deathmatching (RDM)", 
 				"
-				Bei RDM gibt es nur 1 verwahnung dann BAN!<br/>
+				RDM ist strengstens untersagt!<br/>
 				"
 		]
 	];
@@ -124,7 +124,7 @@ player createDiarySubject ["controls","Steuerung"];
 		[
 			"New Life Rule", 
 				"
-				Du darfst erst nach 15 min wieder zu deinem Todes ort zurück kehren!<br/>
+				Du darfst erst nach 15 min wieder zu deinem Todesort zurückkehren!<br/>
 				"
 		]
 	];
@@ -151,7 +151,7 @@ player createDiarySubject ["controls","Steuerung"];
 		[
 			"The Federal Reserve",
 				"
-				Wenn ein Banküberfall stad findet, verlassen alle Polizisten auf der stelle ihre posten und fahren zur Bank!<br/>
+				Wenn ein Banküberfall stattfindet, verlassen alle Polizisten auf der Stelle ihre Posten und fahren zur Bank!<br/>
 				"
 		]
 	];
@@ -168,7 +168,7 @@ player createDiarySubject ["controls","Steuerung"];
 		[
 			"Illegal Areas", 
 				"
-				Immer mindestens 3 Beamte!<br/>
+				Immer mindestens 2 Beamte!<br/>
 				"
 		]
 	];
@@ -177,7 +177,7 @@ player createDiarySubject ["controls","Steuerung"];
 		[
 			"Patrolling", 
 				"
-				Patrollen in Kavala können eben so von Rekruten durch geführt werden mit absprache eines höher rägingen!<br/>
+				Streifen in Kavala können von allen Beamten (ausser Prktis) durchgeführt werden!<br/>
 				"
 		]
 	];
@@ -195,7 +195,7 @@ player createDiarySubject ["controls","Steuerung"];
 		[
 			"Fahrzeuge", 
 				"
-				Jeder Rang hat seine eigenen Fahrzeuge, denn noch sollte der einsatz von gepanzerten Fahrzeugen unterlassen werden!<br/>
+				Jeder Rang hat seine eigenen Fahrzeuge, dennoch sollte der Einsatz von gepanzerten Fahrzeugen vermieden werden!<br/>
 				"
 		]
 	];
@@ -204,7 +204,7 @@ player createDiarySubject ["controls","Steuerung"];
 		[
 			"Geschwindigkeit", 
 				"
-				In Hauptstädten: 30<br/>
+				In Hauptstädten: 50 km/h<br/>
 				Hauptstraßen: 120Km/h<br/>
 				"
 		]
@@ -223,7 +223,7 @@ player createDiarySubject ["controls","Steuerung"];
 		[
 			"Gefägnis und Tickets",
 				"
-				Setzt angemessene straf zeiten!<br/>
+				Setzt angemessene Strafzeiten!<br/>
 				"
 		]
 	];
@@ -234,8 +234,8 @@ player createDiarySubject ["controls","Steuerung"];
 				"
 				Legalle Civ Waffen (Mit Waffenschein):<br/>
 				1. P07<br/>
-				3. ACP-C2<br/>
-				5. PDW2000<br/><br/>
+				2. ACP-C2<br/>
+				3. PDW2000<br/><br/>
 				"
 		]
 	];
@@ -244,7 +244,7 @@ player createDiarySubject ["controls","Steuerung"];
 		[
 			"Einsatz von Waffen",
 				"
-				Nur in Gefahren Situazionen darf scharf gefeuert werden !<br/>
+				Nur in Gefahrensituationen darf scharf geschossen werden !<br/>
 				"
 		]
 	];
@@ -253,7 +253,7 @@ player createDiarySubject ["controls","Steuerung"];
 		[
 			"Razzien",
 				"
-				Razzien dürfen nur mit mindestens 4 Cops durchgefürhrt werden, die verantwortung besitzt der Rang höchste!<br/>
+				Razzien dürfen nur mit mindestens 4 Cops durchgefürhrt werden, die Verantwortung besitzt der Ranghöchste!<br/>
 				"
 		]
 	];
@@ -263,13 +263,12 @@ player createDiarySubject ["controls","Steuerung"];
 			"Rangkette",
 				"
 				Rangkette:<br/>
-				1. Rekruten<br/>
-				2. Polizisten<br/>
-				3. Polizeichef<br/>
-				4. SEK<br/>
-				5. GSG9<br/>
-				6. SEK-M<br/>
-				7. ADMINS<br/>
+				1. Praktikanten<br/>
+				2. Azubi's<br/>
+				3. Beamte<br/>
+				4. Landespolizei<br/>
+				5. Bundespolizei<br/>
+				6. SEK<br/>
 				"
 		]
 	];
@@ -287,7 +286,7 @@ player createDiarySubject ["controls","Steuerung"];
 		[
 			"Teamspeak Regeln",
 				"
-				1. Alle Polizisten müssen sich auf dem TeamSpeak befinden wärend sie als Polizist eingeloggt sind.<br/>
+				1. Alle Polizisten müssen sich auf dem TeamSpeak befinden während sie als Polizist eingeloggt sind.<br/>
 				"
 		]
 	];
@@ -299,7 +298,7 @@ player createDiarySubject ["controls","Steuerung"];
 		[
 			"Rebellen Regeln",
 				"
-				Für dich einfach nicht Scheiße auf troling is auch als Rebell nicht erlaubt!<br/>
+				Trolling ist VERBOTEN!<br/>
 				"
 		]
 	];
@@ -307,7 +306,7 @@ player createDiarySubject ["controls","Steuerung"];
 		[
 			"Gang Regeln",
 				"
-				Eine Gang gehört zusammen im gefächt darf jeder der zur angreifenden gang gehört erschossen werden!<br/>
+				Eine Gang gehört zusammen, jedes Gangmitglied darf im Gefecht beschossen werden!<br/>
 				"
 		]
 	];
@@ -320,12 +319,7 @@ player createDiarySubject ["controls","Steuerung"];
 				1. Ifrit<br/>
 				2. Speedboat<br/>
 				3. Hunter<br/>
-				4. Police Offroad+<br/>
-				5. Ifrit-HMG+<br/>
-				6. Hunter-HMG+<br/>
-				7. Strider<br/>
-				8. Polizei Hunter+<br/>
-				9. Polizei Limo+<br/>
+				4. Strider<br/>
 				"
 		]
 	];
