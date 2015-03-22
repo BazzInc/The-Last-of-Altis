@@ -1769,8 +1769,8 @@ class Mission
 				};
 				class Item12
 				{
-					position[]={8281.8711,13.700781,7022.0029};
-					azimut=-3.1667867;
+					position[]={13586.769,15.333217,12210.309};
+					azimut=30;
 					special="NONE";
 					id=86;
 					side="CIV";
@@ -1852,8 +1852,8 @@ class Mission
 				};
 				class Item19
 				{
-					position[]={28315.283,7.456316,23917.607};
-					azimut=-97.710258;
+					position[]={20728.131,4.5355368,20367.238};
+					azimut=215;
 					offsetY=0.69999999;
 					special="NONE";
 					id=93;
@@ -46246,7 +46246,7 @@ class Mission
 		};
 		class Item43
 		{
-			position[]={8281.8564,13.702066,7022.2393};
+			position[]={13586.754,15.331322,12210.543};
 			name="Dealer_1";
 			text="Drogendealer";
 			type="MinefieldAP";
@@ -46465,7 +46465,7 @@ class Mission
 		};
 		class Item69
 		{
-			position[]={28315.07,7.471365,23917.395};
+			position[]={20727.918,4.5873632,20367.025};
 			name="Dealer_1_4";
 			text="Drogen Dealer";
 			type="MinefieldAP";
