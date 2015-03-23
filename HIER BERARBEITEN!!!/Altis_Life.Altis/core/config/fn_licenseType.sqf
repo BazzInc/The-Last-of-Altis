@@ -106,6 +106,8 @@ switch (_mode) do
 			case "license_civ_stiller": {_var = "stiller"};
 			case "license_civ_stiller": {_var = "liquor"};
 			case "license_civ_stiller": {_var = "beer"};
+			case "license_adac_car": {_var = "car"};
+            case "license_adac_air": {_var = "air"};
 			default {_var = ""};
 		};
 	};

@@ -131,4 +131,6 @@ switch (_var) do
 	case "license_civ_liquor": {"Schnaps Lizenz"};
 	case "license_civ_bottler": {"Abfüll Lizenz"};
 	case "license_civ_uranium": {"Uran Lizenz"};
+	case "license_adac_car": {"ADAC Führerschein"};
+    case "license_adac_air": {"ADAC Pilotenschein"};
 };

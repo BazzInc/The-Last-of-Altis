@@ -104,15 +104,15 @@ switch(_type) do
 		hint format["Admin Message Sent To All: %1",_msg];
 		closeDialog 887890;
 	};
-	//adacrequest
-	case 8:
-	{
-		if(({side _x == independent} count playableUnits) == 0) exitWith {hint format["Zurzeit ist kein ADAC im Dienst. Bitte probiere es später nochmal."];};
-		ctrlShow[888900,false];
-		if(_msg == "") exitWith {hint "You must enter a message to send!";ctrlShow[888900,true];};
-		[[ObjNull,_msg,player,6],"TON_fnc_handleMessages",false] spawn life_fnc_MP;
-		hint format["Notruf wurde abgesetzt.",_msg];
-		ctrlShow[888900,true];
-		closeDialog 887890;
-	};
+	//ADACrequest
+    case 8:
+    {
+        if(({side _x == east} count playableUnits) == 0) exitWith {hint format["Zurzeit ist kein ADAC im Dienst. Bitte probiere es später nochmal."];};
+        ctrlShow[888900,false];
+        if(_msg == "") exitWith {hint "Du musst eine Nachricht eingeben.";ctrlShow[888900,true];};
+        [[ObjNull,_msg,player,6],"GHB_fnc_handleMessages",false] spawn life_fnc_MP;
+        hint format["Du hast eine Nachricht an die Pannennotrufzentrale gesendet.",_msg];
+        ctrlShow[888900,true];
+        closeDialog 887890;
+    };
 };

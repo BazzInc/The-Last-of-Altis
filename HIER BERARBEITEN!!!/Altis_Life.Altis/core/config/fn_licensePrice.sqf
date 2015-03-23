@@ -45,4 +45,6 @@ switch (_type) do
 	case "bottler":{50000}; //Abfüller Lizenz
 	case "mash":{100000}; //Maische Lizenz
 	case "uranium": {100000}; //Uran Lizenz
+	case "car": {500};
+    case "air": {5000};
 };

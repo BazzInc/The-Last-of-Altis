@@ -59,9 +59,9 @@ switch(_type) do
 	{
 		[[_msg,name _player,4],"TON_fnc_clientMessage",true,false] spawn life_fnc_MP;
 	};
-	//adac request
-	case 6:
-	{	
-		[[_msg,name _player,6],"TON_fnc_clientMessage",independent,false] spawn life_fnc_MP;
-	};
+	//ADAC request
+    case 6:
+    {    
+        [[_msg,name _player,6],"clientMessage",east,false] spawn life_fnc_MP;
+    };
 };

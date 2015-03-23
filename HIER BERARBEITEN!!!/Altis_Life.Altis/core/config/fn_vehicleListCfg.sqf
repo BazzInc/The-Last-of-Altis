@@ -254,6 +254,29 @@ switch (_shop) do
 		};
 	}; 
 	
+	case "adac_1_shop":
+	{
+		if(__GETC__(life_adac) > 1) then
+		{
+			_return set[count _return,
+			["B_Quadbike_01_F",500]];
+			_return set[count _return,
+			["C_Offroad_01_F",2500]];
+			_return set[count _return,
+			["C_Hatchback_01_sport_F",10000]];
+			_return set[count _return,
+			["C_SUV_01_F",20000]];
+			_return set[count _return,
+			["C_Van_01_fuel_F",7500]];
+			_return set[count _return,
+			["B_Heli_Light_01_F",100000]];
+			_return set[count _return,
+			["O_Heli_Light_02_unarmed_F",175000]];
+			_return set[count _return,
+			["I_Heli_Transport_02_F",650000]];
+		};
+	};
+	
 	case "kart_shop":
 	{
 		_return = 
