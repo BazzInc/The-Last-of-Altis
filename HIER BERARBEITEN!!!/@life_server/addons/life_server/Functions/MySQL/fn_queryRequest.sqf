@@ -26,6 +26,7 @@ _query = switch(_side) do {
 	case west: {_returnCount = 10; format["SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, cop_licenses, coplevel, cop_gear, blacklist FROM players WHERE playerid='%1'",_uid];};
 	case civilian: {_returnCount = 9; format["SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, civ_licenses, arrested, civ_gear FROM players WHERE playerid='%1'",_uid];};
 	case independent: {_returnCount = 9; format["SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, med_licenses, mediclevel, med_gear FROM players WHERE playerid='%1'",_uid];};
+	case east: {_returnCount = 10; format["SELECT playerid, name, cash, bankacc, adminlevel, donatorlvl, adac_licenses, adaclevel, adac_gear FROM players WHERE playerid='%1'",_uid];};
 };
 
 waitUntil{sleep (random 0.3); !DB_Async_Active};
@@ -86,6 +87,13 @@ switch (_side) do {
 		waitUntil{scriptDone _gangData};
 		_queryResult pushBack (missionNamespace getVariable[format["gang_%1",_uid],[]]);
 	};
+	
+	case east: {
+        _new = [(_queryResult select 8)] call DB_fnc_mresToArray;
+        if(typeName _new == "STRING") then {_new = call compile format["%1", _new];};
+        _queryResult set[8,_new];
+        _queryResult set[9,([_queryResult select 9,1] call DB_fnc_bool)];
+    };
 };
 
 _keyArr = missionNamespace getVariable [format["%1_KEYS_%2",_uid,_side],[]];
