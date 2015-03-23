@@ -1,0 +1,33 @@
+// INSTALLATION
+
+!!! Server Stoppen !!!
+
+1) Ordner "Altis_Life.Altis" in den MPMissions des Servers ziehen.
+
+
+1.1) Wenn ihr das AdminTool infiSTAR benutzt, müsst ihr im SpyGlass Ordner der Mission den Inhalt der fn_menuCheck.sqf löschen.
+
+
+2) Ordner "@life_server" in das Hauptverzeichnis des Server ziehen.
+
+
+3) Nun klickt ihr im Nitrado Webinterface unter den Verbindungsparamtern der MySQL-DB auf "Zurücksetzen".
+
+
+4) Nun klickt ihr auf PhpMyAdmin und loggt euch mit den Daten ein.
+
+
+5) Es sollten jetzt keine Tabellen und Prozeduren mehr vorhanden sein.
+
+
+6) Jetzt klickt ihr in eurem PhpMyAdmin Fenster auf den Datenbanknamen (linker Bildschirmrand)
+
+
+7) Danach circa in der Mitte des Bildschirms auf "Importieren" und wählt die "Datenbanken.sql" aus und dückt auf "OK".
+
+
+8) Jetzt löscht oder ersetzt die BattlEye-Filter aus dem Verzechnis "/arma3/config/battleye/" mit denen aus meinem Pack.
+
+
+
+Falls ihr Fragen oder Probleme bei der Installation habt, zögert nicht mir eine E-Mail zu schreiben: support@sealdrop.de
