@@ -1852,9 +1852,7 @@ class Mission
 				};
 				class Item19
 				{
-					position[]={21024.947,1.4861377,14742.959};
-					azimut=215;
-					offsetY=0.69999999;
+					position[]={20887.625,2.6229882,14619.999};
 					special="NONE";
 					id=93;
 					side="CIV";
@@ -2178,7 +2176,7 @@ class Mission
 					vehicle="B_RangeMaster_F";
 					skill=0.60000002;
 					text="h1_3";
-					init="this enableSimulation false; this allowDamage false; this addAction[""<t color='#ADFF2F'>BANK</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 ']; this addAction[""Item Shop"",life_fnc_virt_menu,""cop""];  this allowDamage false; this addAction[""Visiere und Sonstiges"",life_fnc_weaponShopMenu,""cop_visier""]; this addAction[""Kleidung"",life_fnc_clothingMenu,""cop""];  this addAction[""Praktikanten Laden"",life_fnc_weaponShopMenu,""cop_basic""];  this addAction[""Beamten Laden"",life_fnc_weaponShopMenu,""cop_patrol""]; this addAction[format[""%1 ($%2)"",[""license_cop_air""] call life_fnc_varToStr,[([""cair""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""cair"",0,false,false,"""",' !license_cop_air && playerSide == west ']; this addAction[format[""%1 ($%2)"",[""license_cop_cg""] call life_fnc_varToStr,[([""cg""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""cg"",0,false,false,"""",' !license_cop_cg && playerSide == west ']; this addAction[""Kommisar Laden"",life_fnc_weaponShopMenu,""cop_sergeant""]; this addAction[""Haupt-Kommisar Laden"",life_fnc_weaponShopMenu,""cop_kommisar""]; this addAction[""SEK Laden"",life_fnc_weaponShopMenu,""cop_sek""]; this addAction[""GSG9 Laden"",life_fnc_weaponShopMenu,""cop_gsg""];";
+					init="this enableSimulation false; this allowDamage false; this addAction[""<t color='#ADFF2F'>BANK</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 ']; this addAction[""Item Shop"",life_fnc_virt_menu,""cop""];  this allowDamage false; this addAction[""Visiere und Sonstiges"",life_fnc_weaponShopMenu,""cop_visier""]; this addAction[""Kleidung"",life_fnc_clothingMenu,""cop""];  this addAction[""Praktikanten Laden"",life_fnc_weaponShopMenu,""cop_basic""];  this addAction[""Azubi Laden"",life_fnc_weaponShopMenu,""cop_patrol""]; this addAction[format[""%1 ($%2)"",[""license_cop_air""] call life_fnc_varToStr,[([""cair""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""cair"",0,false,false,"""",' !license_cop_air && playerSide == west ']; this addAction[format[""%1 ($%2)"",[""license_cop_cg""] call life_fnc_varToStr,[([""cg""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""cg"",0,false,false,"""",' !license_cop_cg && playerSide == west ']; this addAction[""Polizei Laden"",life_fnc_weaponShopMenu,""cop_sergeant""]; this addAction[""Landespolizei Laden"",life_fnc_weaponShopMenu,""cop_kommisar""]; this addAction[""Bundespolizei Laden"",life_fnc_weaponShopMenu,""cop_sek""]; this addAction[""SEK/GSG9 Laden"",life_fnc_weaponShopMenu,""cop_gsg""];";
 				};
 				class Item47
 				{
@@ -2678,9 +2676,8 @@ class Mission
 				};
 				class Item90
 				{
-					position[]={13592.769,16.395596,12174.558};
+					position[]={13584.88,15.319043,12206.352};
 					azimut=-330.952;
-					offsetY=0.5;
 					special="NONE";
 					id=164;
 					side="CIV";
@@ -46465,7 +46462,7 @@ class Mission
 		};
 		class Item69
 		{
-			position[]={21024.734,1.4951,14742.746};
+			position[]={20887.412,2.6222143,14619.786};
 			name="Dealer_1_4";
 			text="Drogen Dealer";
 			type="MinefieldAP";
@@ -48581,9 +48578,9 @@ class Mission
 		};
 		class Item329
 		{
-			position[]={13592.792,16.398237,12174.479};
+			position[]={13584.903,15.318128,12206.272};
 			name="cocaine processing";
-			text="Koks Küche";
+			text="Koksküche";
 			type="mil_dot";
 			colorName="ColorRed";
 			angle=-60.151798;
